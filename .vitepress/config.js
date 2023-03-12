@@ -1,48 +1,102 @@
-module.exports = {
+module.exports = 
+{
 
-  title: 'SVWS Hilfe',
-  description: 'Hilfen SVWS-Server NRW',
-  themeConfig: {
+title: 'SVWS Hilfe',
+description: 'Hilfen SVWS-Server NRW',
 
-    sidebar: {
+themeConfig: 
+{
+
+sidebar: 
+{
 
 
 
-  '/':
-        [
-          {
-                text: '',
-                items:
-                [
-                  { text: 'Schule', link: '/schule/index.md', collapsed: true,  items:
+'/':
+	[
+		{ text: '',	items:
 			[
-	                  { text: 'Datenaustausch', link: './benutzerverwaltung/index.md' },
-        	          { text: 'Benutzerverwaltung', link: './datenaustausch/index.md' }
-			]
-		  },
-                  { text: 'Kataloge', link: '/kataloge/index.md', collapsed: true,  items:
+				{ text: 'Schule', link: '/schule/', collapsed: true,  items:
+					[
+						{ text: 'Datenaustausch', link: './benutzerverwaltung/' },
+						{ text: 'Benutzerverwaltung', link: './datenaustausch/' }
+					]
+				},
+                  
+				{ text: 'Kataloge', link: '/kataloge/', collapsed: true,  items:
+					[
+						{ text: 'Fächer', link: './faecher/' },
+						{ text: 'Förderschwerpunkte', link: './foerderschwerpunkte/' },
+						{ text: 'Jahrgänge', link: './jahrgaenge/' },
+						{ text: 'Religionen', link: './religionen/' }
+					]
+				},
+		
+				{ text: 'Schüler', link: '/schueler/', collapsed: true,  items:
+					[
+						{ text: 'Individualdaten', link: './/' },
+						{ text: '', link: './/' },
+						{ text: '', link: './/' },
+						{ text: '', link: './/' },
+						{ text: '', link: './/' }
+					]	
+				},
+        
+				{ text: 'Lehrkräfte', link: '/lehrer/', collapsed: true,  items:
+					[
+						{ text: '', link: './/' },
+						{ text: '', link: './/' },
+						{ text: '', link: './/' },
+						{ text: '', link: './/' },
+						{ text: '', link: './/' }
+					]	
+				},
+        
+				{ text: 'Klassen', link: '/klassen/', collapsed: true,  items:
+					[
+						{ text: '', link: './/' },
+						{ text: '', link: './/' },
+						{ text: '', link: './/' },
+						{ text: '', link: './/' },
+						{ text: '', link: './/' }
+					]	
+				},
+        
+				{ text: 'Kurse', link: '/kurse/', collapsed: true,  items:
+					[
+						{ text: '', link: './/' },
+						{ text: '', link: './/' },
+						{ text: '', link: './/' },
+						{ text: '', link: './/' },
+						{ text: '', link: './/' }
+					]	
+				},
+        
+				{ text: 'Oberstufe', link: '/gost/', collapsed: true,  items:
+					[
+						{ text: '', link: './/' },
+						{ text: '', link: './/' },
+						{ text: '', link: './/' },
+						{ text: '', link: './/' },
+						{ text: '', link: './/' }
+					]	 
+				},
+        
+				{ text: 'Statistik', link: '/statistik/', collapsed: true,  items:
+					[
+						{ text: '', link: './/' },
+						{ text: '', link: './/' },
+						{ text: '', link: './/' },
+						{ text: '', link: './/' },
+						{ text: '', link: './/' }
+					]	 
+				
+				}
 
-			 [
-                          { text: 'Förderschwerpunkte', link: './katrderschwerpunkte' },
-                          { text: 'Jahrgänge', link: './katrgaenge' },
-                          { text: 'Religionen', link: './religionen' }
-                         ]
-
-		   },
-                  { text: 'Schüler', link: '/schueler/' },
-                  { text: 'Lehrkräfte', link: '/lehrer/' },
-                  { text: 'Klassen', link: '/klassen/' },
-                  { text: 'Kurse', link: '/kurse/' },
-                  { text: 'Oberstufe', link: '/gost/' },
-                  { text: 'Statistik', link: '/statistik/' }
-
-                ]
-          }
-        ]
-
-
-
-    }
-  }
+            ]
+        }
+    ]
+}
+}
 };
 
