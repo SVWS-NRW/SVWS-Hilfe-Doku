@@ -17,7 +17,7 @@ Das Laufnahnberatungstool für die Gymnasiale Oberstufe.
 Sycronisation der Benuzter Ihrer Lernplattform (z.B. Logineo). 
 
 
-[msb-fachanwendungsportal](./msb-fachanwendungsportaindex)   
+[msb-fachanwendungsportal](./msb-fachanwendungsportal/index.md)   
 Datensyncronisation zum Fachanwendungsportal des Schulministerium.
 
  
@@ -25,5 +25,5 @@ Datensyncronisation zum Fachanwendungsportal des Schulministerium.
 Syncronisierung der Schüler An- und Abmeldung.
 
 
-[NBP](./nbp/index.md)
+[NBP](./nbi/index.md)
 Syncronisation zur Nationalen Bildungsplattform 

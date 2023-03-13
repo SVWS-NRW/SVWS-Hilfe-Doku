@@ -6,11 +6,11 @@
 
 [Betriebe](./betriebe/index.md) 
 
-[Aktueller Abschnitt](./abschnitt/index.md)   
+[Aktueller Abschnitt](./abschnitt/index.md) 
 
 [Leistungdaten](./leistungsdaten/index.md)
 
-[Laufbahnplanung](./Laufbahnplanungaufbahnplanung/index.md)
+[Laufbahnplanung](./laufbahnplanung/index.md)
 
 [Stundenplan](./stundenplan/index.md)
 
