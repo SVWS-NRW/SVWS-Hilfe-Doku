@@ -5,25 +5,25 @@ in den entspechenden Bereichen eingetragen werden.
 
 ## Dienste 
  
-[wenom](./wenom/index.md)   
+[WeNoM](./wenom/index.md)   
 Ihr Server, zum Verwalten und Sycronisieren der Unterrichtsnoten.
 
 
-[lupo](./lupo/index.md)   
+[Lupo](./lupo/index.md)   
 Das Laufnahnberatungstool für die Gymnasiale Oberstufe.
  
  
-[lernplattform](./lernplattform/index.md)    
+[Lernplattformen](./lernplattform/index.md)    
 Sycronisation der Benuzter Ihrer Lernplattform (z.B. Logineo). 
 
 
-[msb-fachanwendungsportal](./msb-fachanwendungsportal/index.md)   
+[Fachanwendungsportal](./fachanwendungsportal/index.md)   
 Datensyncronisation zum Fachanwendungsportal des Schulministerium.
 
  
-[schueler_online](./schueler_online/index.md)    
+[SchuelerOnline](./schueler_online/index.md)    
 Syncronisierung der Schüler An- und Abmeldung.
 
-
-[NBP](./nbi/index.md)
-Syncronisation zur Nationalen Bildungsplattform 
+ 
+[NBI](./nbi/index.md)   
+Syncronisation zur Nationalen Bildungsinfrastruktur

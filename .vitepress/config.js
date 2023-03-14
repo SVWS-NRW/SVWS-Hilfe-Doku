@@ -38,7 +38,7 @@ sidebar:
 						{ text: 'Erziehungsberechtigte', link: '/schueler/erziehungsberechtigte/' },
 						{ text: 'Ausbildungsbetriebe', link: '/schueler/ausbildungsbetriebe/' },
 						{ text: 'Schulbesuch', link: '/schueler/schulbesuch/' },
-						{ text: 'Lernabschnitt', link: '/schueler/lernabschnitt/' },
+						{ text: 'Lernabschnittsdaten', link: '/schueler/lernabschnittsdaten/' },
 						{ text: 'Leistungsdaten', link: '/schueler/leistungsdaten/' },
 						{ text: 'Laufbahnplanung', link: '/schueler/laufbahnplanung/' },
 						{ text: 'Stundenplan', link: '/schueler/stundenplan/' }
