@@ -1,14 +1,14 @@
 # Klassen
 
-# neue Klasse hinzufügen
+## neue Klasse hinzufügen
 
-# Klasse bearbeiten
+## Klasse bearbeiten
 
-## Klassenbezeichnung ändern 
+### Klassenbezeichnung ändern 
 
-## Klassenlehrkraft ändern
+### Klassenlehrkraft ändern
 
-## Schüler aus Klasse entfernen oder hinzufügen
+### Schüler aus Klasse entfernen oder hinzufügen
 
 
 

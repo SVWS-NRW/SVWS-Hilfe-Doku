@@ -1,14 +1,14 @@
 # Kurse
 
-# neue Kurse hinzufügen
+## neue Kurse hinzufügen
 
-# Kurse bearbeiten
+## Kurse bearbeiten
 
-## Kursbezeichnung ändern 
+### Kursbezeichnung ändern 
 
-## Kuslehrer ändern
+### Kuslehrer ändern
 
-## Schüler aus Kurs entfernen oder hinzufügen
+### Schüler aus Kurs entfernen oder hinzufügen
 
 
 

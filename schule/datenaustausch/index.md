@@ -1,4 +1,4 @@
-# datenaustausch
+# Datenaustausch
 
 Hier können Sie Daten mit anderen Diensten austauschen. Es müssen die entgegennehmenden Serveradressen und die zugehörigen Zugangsberechtigungen 
 in den entspechenden Bereichen eingetragen werden. 

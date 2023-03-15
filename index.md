@@ -22,12 +22,10 @@ Hier werden auch neue Funktionalitäten abseits der Kernaufgaben von Schild 3.0 
 
 ## Impressum
 
-Ministerium für Schule und Bildung des Landes Nordrhein-Westfalen,
-Referat 133
+Ministerium für Schule und Bildung des Landes Nordrhein-Westfalen
 Völklinger Straße 49, 40221 Düsseldorf
 
 
-Telefon:
-+ 49 211 5867 40
+Telefon: +49 211 5867 40
 
  

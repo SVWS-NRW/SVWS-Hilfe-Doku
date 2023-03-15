@@ -1,3 +1,0 @@
-# Individualdaten 
-
-Lehrkräfte
