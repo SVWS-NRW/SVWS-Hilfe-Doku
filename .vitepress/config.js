@@ -2,7 +2,7 @@ module.exports =
 {
 
 title: 'SVWS Hilfe',
-description: 'Hilfeseiten SVWS-Server NRW',
+description: 'Hilfeseiten SVWS-Client NRW',
 
 themeConfig:
 {
