@@ -1,24 +1,23 @@
-# SVWS-Hilfe-Doku
+# SVWS-Dokumentation
+Hilfe und Handbuch
 
-## Was ist der SVWS-Server? 
+## Hilfe zum SVWS-Client (Browser-App für Schulverwaltungsaufgaben) 
 
-Der SVWS-Server ist ein Schulverwaltungsserver zur Unterstützung der Verwaltungsprozesse an den Schulen NRWs.  
+Der SVWS-Client ist eine Web-Applikation zur Unterstützung der Verwaltungsprozessen an den Schulen NRWs.  
 
-In der Nachfolge von SchILD-NRW 2.0 werden mit dem SVWS_Server & SchILD-NRW 3.0 alle Prozesse des Vorgängers unterstützt. 
-Mit Installation des SVWS-Servers steht Ihnen insbesondere diese Weboberfläche zur Verfügung. 
-Der Server ist parallel zur Schild 3.0 Oberfläche mit dieser Weboberfläche ansprechbar. 
-In der weiteren Entwicklung der Weboberfläche wird sukszessive die gesammte Funktionalität des Servers ansprechbar werden.
-Hier werden auch neue Funktionalitäten abseits der Kernaufgaben von Schild 3.0 implementiert. 
+Der SVWS-Client schafft eine plattformübergreifende Benutzeroberfläche die mit allen gängigen Browsern aufgerufen werden kann.
+Dabei sollen nach und nach alle Aufgaben der alten Schulverwaltungsprogramme aus NRW implementiert werden.
+Der SVWS-Client ersetzt bereits die Programme Lupo und Kurs42 und kann die Individual- und Leistungsdaten der Schülerinnen und Schüler anzeigen.
+Die Verwaltung der Lehrkräfte ist bereits auch möglich.
 
-## Installationsanleitung 
+Zusätzlich zu den bisherigen Angeboten ist im SVWS-Client eine komfortable Anzeige von Stundenplänen hinzugekommen.
 
-### Installation unter Debian 
+Das Gesamtprojekt SVWS-Server ist ein Open-Source-Projekt des Landes Nordrhein-Westfalen.
 
-### Installation unter Windows
 
-## Wie kann ich helfen?
+## Bedienungshilfe 
 
-## Wo finde ich den Quellcode? 
+### Aufbau des Handbuchs 
 
 ## Impressum
 
