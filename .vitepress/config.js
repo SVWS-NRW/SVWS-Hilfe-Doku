@@ -76,8 +76,8 @@ sidebar:
 				},
 
 				{ text: 'Adressbücher', link: '/adressbuecher/' },
-				{ text: 'Kalender', link: '/kalender/' }
-
+				{ text: 'Kalender', link: '/kalender/' }, 
+				{ text: 'FAQ', link: '/faq/' }
 
             ]
         }
