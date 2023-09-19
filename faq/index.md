@@ -1,18 +1,19 @@
 # FAQ
 
-#FAQ
-
 Sie haben Fragen zum Thema ... 
 
 ## Installation
 
 siehe: https://doku.svws-nrw.de/Deployment/ 
 
-## bug tracking 
+## Bug tracking 
 
 Sie haben einen Bug gefunden und möchten dies melden? Dann können Sie über die sich 
-* an Ihre Fachberatung wenden (siehe https://www.svws.nrw.de/service/fachberatersuche) oder 
-* in Gthub ein Issue dazu erstellen (siehe https://github.com/SVWS-NRW/SVWS-Server/issues)
+* an Ihre Fachberatung wenden   
+(siehe https://www.svws.nrw.de/service/fachberatersuche)   
+oder 
+* in Gthub ein Issue dazu erstellen  
+(siehe https://github.com/SVWS-NRW/SVWS-Server/issues)  
 
 ## Diagnostik
 
