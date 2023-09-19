@@ -1,23 +1,42 @@
 # FAQ
 
-## Der SVWS-Server startet nicht 
+#FAQ
+
+Sie haben Fragen zum Thema ... 
+
+## Installation
+
+siehe: https://doku.svws-nrw.de/Deployment/ 
+
+## bug tracking 
+
+Sie haben einen Bug gefunden und möchten dies melden? Dann können Sie über die sich 
+* an Ihre Fachberatung wenden (siehe https://www.svws.nrw.de/service/fachberatersuche) oder 
+* in Gthub ein Issue dazu erstellen (siehe https://github.com/SVWS-NRW/SVWS-Server/issues)
+
+## Diagnostik
+
+Der SVWS-Server startet nicht ...
 
 ### Diagnosetools
 Informationen zum Zustand des Servers erhält man z.B. mit den folgenden Befehlen, die ein Administrator auf dem Linux-Terminal absetzen kann: 
-``` systemctl status svws```
-oder 
-```journalct -u svws -f```
 
-es folgen mögliche Fehlerbeschreibungen
+```bash 
+systemctl status svws
+```
+bzw. 
+```bash 
+journalct -u svws -f
+```
 
 ### Fehler: Cannot invoke "de.svws_nrw.db.DBConfig.getDBDriver()"
 
 Hier stimmt irgendwas nicht mit der Definition oder dem Zugriff auf die MariaDB. Bitte die svwsconfig.json ansehen!
 
-#### Workaround
+Workaround:
 
 Man kann nun nach einer Sicherung der aktuellen ```svwsconfig.json``` ggf die SchemaKonfiguration ertfernen, so dass die Eintragung an dieser Stelle entsprechen: 
-```
+```bash 
 ...
 "DBKonfiguration" : {
     "dbms" : "MARIA_DB",
@@ -27,9 +46,12 @@ Man kann nun nach einer Sicherung der aktuellen ```svwsconfig.json``` ggf die Sc
   }
  ... 
  ```
+ 
 abgeändert wird.  Nun den SVWS-Server neu starten mit: 
 
-``` systemctl restart svws```
+```bash 
+systemctl restart svws
+```
 
-Anschließend kann man z.B. über die Swagger ein neues Datenbankschema anlegen. Hierzu bitte die folgende URL aufrufen: 
-https://mein_SVWS-Server/debug/ (Bitte "mein_SVWS-Server" sinnvoll ersetzen.) 
+Anschließend kann man z.B. über die Swagger ein neues Datenbankschema anlegen. Hierzu bitte die folgende URL aufrufen ("mein_SVWS-Server" sinnvoll ersetzen):   
+https://mein_SVWS-Server/debug/ 
