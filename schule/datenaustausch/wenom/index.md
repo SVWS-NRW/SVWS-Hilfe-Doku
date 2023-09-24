@@ -1,6 +1,6 @@
 # WeNoM
 
-Syncronisation mit der schuleigenen Webnotenmanager
+Synchronisation mit dem schuleigenen Webnotenmanager
 
 ## Einrichtung
 

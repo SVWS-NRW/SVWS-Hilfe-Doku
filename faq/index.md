@@ -9,7 +9,7 @@ siehe: https://doku.svws-nrw.de/Deployment/
 
 ## Bug tracking 
 
-Sie haben einen Bug gefunden und möchten dies melden? Dann können Sie über die sich 
+Sie haben einen Bug gefunden und möchten dies melden? Dann können Sie sich 
 * an Ihre Fachberatung wenden   
 (siehe https://www.svws.nrw.de/service/fachberatersuche)   
 oder 
@@ -37,7 +37,7 @@ Hier stimmt irgendwas nicht mit der Definition oder dem Zugriff auf die MariaDB.
 
 Workaround:
 
-Man kann nun nach einer Sicherung der aktuellen ```svwsconfig.json``` ggf die SchemaKonfiguration ertfernen, so dass die Eintragung an dieser Stelle entsprechen: 
+Man kann nun nach einer Sicherung der aktuellen ```svwsconfig.json``` ggf. die SchemaKonfiguration entfernen, so dass die Eintragung an dieser Stelle entsprechend: 
 ```bash 
 ...
 "DBKonfiguration" : {
@@ -49,7 +49,7 @@ Man kann nun nach einer Sicherung der aktuellen ```svwsconfig.json``` ggf die Sc
  ... 
  ```
  
-abgeändert wird.  Nun den SVWS-Server neu starten mit: 
+abgeändert wird. Nun den SVWS-Server neu starten mit: 
 
 ```bash 
 systemctl restart svws

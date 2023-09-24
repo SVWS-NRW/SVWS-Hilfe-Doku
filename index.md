@@ -3,7 +3,7 @@ Hilfe und Handbuch
 
 ## Hilfe zum SVWS-Client (Browser-App für Schulverwaltungsaufgaben) 
 
-Der SVWS-Client ist eine Web-Applikation zur Unterstützung der Verwaltungsprozessen an den Schulen NRWs.  
+Der SVWS-Client ist eine Web-Applikation zur Unterstützung der Verwaltungsprozesse an den Schulen NRWs.  
 
 Der SVWS-Client schafft eine plattformübergreifende Benutzeroberfläche die mit allen gängigen Browsern aufgerufen werden kann.
 Dabei sollen nach und nach alle Aufgaben der alten Schulverwaltungsprogramme aus NRW implementiert werden.
