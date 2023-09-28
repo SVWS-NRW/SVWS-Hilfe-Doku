@@ -1,6 +1,7 @@
 # Kursplanung 
 
-Hier können Sie die Blockung der Kurse auf die einzelnen Schienen erstellen. Sie können Kurse einrichten und bei einzelnen Schülerinnen und Schüern umwahlen eingeben. 
+Hier können Sie die Blockung der Kurse auf die einzelnen Schienen erstellen. Sie können Kurse einrichten und bei einzelnen Schülerinnen und Schüern 
+Umwahlen eingeben. 
 
 ## Blockung erstellen
 
@@ -28,7 +29,7 @@ Hier können Sie die Blockung der Kurse auf die einzelnen Schienen erstellen. Si
 
 ### neue Klausuren einrichten 
 
-### Klausuren im Termiplaner 
+### Klausuren im Terminplaner 
 
 
  

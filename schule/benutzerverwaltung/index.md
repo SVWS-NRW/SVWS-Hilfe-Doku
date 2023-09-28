@@ -1,6 +1,6 @@
 # Benutzerverwaltung
 
-Hier werden die Rechte für die einzelnen Benutzer eingerichtet. Dies kann über granulare Rechte oder sog. Rollen, in denen mehrer Rechte vorgegeben sind, erfolgen. 
+Hier werden die Rechte für die einzelnen Benutzer eingerichtet. Dies kann über granulare Rechte oder sog. Rollen, in denen mehrere Rechte vorgegeben sind, erfolgen. 
 
 Ebenso kann einem Benutzer eine oder mehrere Rollen zugewiesen werden und zusätzlich auch einzelne Rechte gegeben oder entzogen werden. 
 
