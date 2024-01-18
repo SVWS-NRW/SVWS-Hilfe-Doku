@@ -25,7 +25,7 @@ Umwahlen eingeben.
 
 #### Musik und Kunst parallel
 
-##Klausurplanung
+## Klausurplanung
 
 ### neue Klausuren einrichten 
 
