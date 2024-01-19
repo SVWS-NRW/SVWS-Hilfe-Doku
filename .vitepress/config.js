@@ -60,6 +60,7 @@ sidebar:
 					[
 						{ text: 'Fächer', link: '/gost/faecher/' },
 						{ text: 'Fachwahlen', link: '/gost/fachwahlen/' },
+						{ text: 'WebLuPO', link: '/gost/weblupo/' },
 						{ text: 'Kursplanung', link: '/gost/kursplanung/' },
 						{ text: 'Klausurplanung', link: '/gost/klausurplanung/' }
 					]
