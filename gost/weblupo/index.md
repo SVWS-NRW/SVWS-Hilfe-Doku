@@ -29,5 +29,10 @@ Die folgende Grafik zeigt die vier Bereiche der Laufbahnberatungstools.
 
 ![weblupo Bereichsübersicht](./graphics/weblupo_bereiche.png)
 
-Im ersten Bereich können Sie den Modus einstellen und haben Zugriff auf Speicher- und Bearbeitungsmöglichkeiten. Der Modus 'normal' und 'hochschreiben' füllt automatisch die im zweiten Bereich angegebenen Fachwahlen auf und passt sie sinnvoll an die höheren Jahrgänge an. Durch einen Doppelklick auf die einzelnen Felder der Tabelle im zweiten Bereich können Sie zwischen Grundkurs, Leistungskurs, etc. wählen.
-Im dritten Bereich wird automatisch die Anzahl der belegten und anrechenbaren Kurse berechnet. Die Farbgebung von rot bis dunkelgrün gibt Ihnen direkt Feedback zur Anzahl der Kurse. Im vierten Bereich werden die Regeln für die Oberstufenbelegung algorithmisch ausgewertet und die noch zu erfüllenden Bedingungen angezeigt. Hier kann der Modus EF.1, Gesamtprüfung oder automatisch gewählt werden. Interessant ist auch die Einstellung "Planung merken" im ersten Bereich, die das Festhalten einer Einstellung in der Tabelle ermöglicht. Somit können Schülerinnen und Schüler von einem Ausgangspunkt aus schnell mehrere Planungen ausprobieren und wieder zurücksetzen. 
+Im ersten Bereich können Sie den Modus einstellen und haben Zugriff auf Speicher- und Bearbeitungsmöglichkeiten.   
+
+Der Modus 'normal' und 'hochschreiben' füllt automatisch die im zweiten Bereich angegebenen Fachwahlen auf und passt sie sinnvoll an die höheren Jahrgänge an. Durch einen Doppelklick auf die einzelnen Felder der Tabelle im zweiten Bereich können Sie zwischen Grundkurs, Leistungskurs, etc. wählen.  
+
+Im dritten Bereich wird automatisch die Anzahl der belegten und anrechenbaren Kurse berechnet. Die Farbgebung von rot bis dunkelgrün gibt Ihnen direkt Feedback zur Anzahl der Kurse. Im vierten Bereich werden die Regeln für die Oberstufenbelegung algorithmisch ausgewertet und die noch zu erfüllenden Bedingungen angezeigt. Hier kann der Modus EF.1, Gesamtprüfung oder automatisch gewählt werden.   
+
+Interessant ist auch die Einstellung "Planung merken" im ersten Bereich, die das Festhalten einer Einstellung in der Tabelle ermöglicht. Somit können Schülerinnen und Schüler von einem Ausgangspunkt aus schnell mehrere Planungen ausprobieren und wieder zurücksetzen. 
