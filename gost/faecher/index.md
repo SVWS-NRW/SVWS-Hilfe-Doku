@@ -21,7 +21,7 @@ Bedingt die Wahl eines bestimmten Faches die Wahl eines anderen Faches, so kann 
 Die Gründe für solche Bedingungen können eine möglichen Profilbildung aber auch organisatorisch sein.<br />
 
 
-![Oberstufe_Faecher_gefBed_1](./\graphics/SVWS_Oberstufe_Faecher_gefBed_1.png) 
+![Oberstufe_Faecher_gefBed_1](./graphics/SVWS_Oberstufe_Faecher_gefBed_1.png) 
 
 ## Beispiele
 
