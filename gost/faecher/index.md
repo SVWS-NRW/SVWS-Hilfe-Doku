@@ -3,7 +3,7 @@
 Hier wird (als Vorlage oder auch individuell für jeden Jahrgang) festgelegt, in welchem Abschnitt ein Fach und ob es als Abiturfach (GK oder LK) angeboten wird.
 
 
-![Oberstufe_Faecher_1](\graphics\SVWS_Oberstufe_Faecher_1.png) 
+![Oberstufe_Faecher_1](./graphics/SVWS_Oberstufe_Faecher_1.png) 
 
 
 ## Unzulässige Kombinationen
@@ -13,7 +13,7 @@ Zu beachten ist:<br />
 Damit beide sich ausschließende Fächer im Beratungsbogen angezeigt werden, muss die Kombnation auch andersherumeingetragen werden (s. unten stehendens Beispiel).<br />
 
 
-![Oberstufe_Faecher_unzKomb_1](\graphics\SVWS_Oberstufe_Faecher_unzKomb_1.png) 
+![Oberstufe_Faecher_unzKomb_1](./graphics/SVWS_Oberstufe_Faecher_unzKomb_1.png) 
 
 
 ## Geforderte Kombinationen 
@@ -21,7 +21,7 @@ Bedingt die Wahl eines bestimmten Faches die Wahl eines anderen Faches, so kann 
 Die Gründe für solche Bedingungen können eine möglichen Profilbildung aber auch organisatorisch sein.<br />
 
 
-![Oberstufe_Faecher_gefBed_1](\graphics\SVWS_Oberstufe_Faecher_gefBed_1.png) 
+![Oberstufe_Faecher_gefBed_1](./\graphics/SVWS_Oberstufe_Faecher_gefBed_1.png) 
 
 ## Beispiele
 
@@ -35,4 +35,4 @@ Die Gründe für solche Bedingungen können eine möglichen Profilbildung aber a
 Anmerkung: Derzeit beteht keine Möglichkeit von **oder**-Forderungen, also z.B.*GE-ZK fordert SW-LK* **oder** *SW-GK*
 
 
-![Oberstufe_Faecher_Bedingungen_Beispiel_1](\graphics\SVWS_Oberstufe_Faecher_Bedingungen_Beispiel_1.png) 
+![Oberstufe_Faecher_Bedingungen_Beispiel_1](./graphics/SVWS_Oberstufe_Faecher_Bedingungen_Beispiel_1.png) 
