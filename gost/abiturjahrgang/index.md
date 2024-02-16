@@ -12,6 +12,6 @@ Es können nun die **allgemeine Vorlagen** oder individuell **die jeweilige Jahr
 4. Beratungslehrkräfte
 5. ...
 
-Nach anklicken eines angelegten Jahrganges erweitert sich die Aswahl im rechten Fenster des Jahrganges:
+Nach Anklicken eines angelegten Jahrganges erweitert sich die Auwahl im rechten Fenster des Jahrganges:
 
 ![Jahrgang-anlegen_2](./graphics/SVWS_Oberstufe_Uebersicht_1.png) 
