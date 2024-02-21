@@ -7,10 +7,14 @@ Hier wird (als Vorlage oder auch individuell für jeden Jahrgang) festgelegt, in
 
 
 ## Unzulässige Kombinationen
-Hier können an Ihrer Schule unzulässige Kombinationen festgeelgt werden.<br />
-Zu beachten ist:<br />
-**Nur das zweitgenannte Fach wird im Beratungsbogen als unzulässig markiert**.<br />
-Damit beide sich ausschließende Fächer im Beratungsbogen angezeigt werden, muss die Kombnation auch andersherumeingetragen werden (s. unten stehendens Beispiel).<br />
+Hier können an Ihrer Schule unzulässige Kombinationen festgelegt werden.<br />
+Es genügt, Kombinationen einmal einzutragen. Durch Importe ist evtl. eine Kombination doppelt eingetragen. <br />
+Beispiel:
+KR schließt ER aus <br />
+und<br />
+ER schließt KR aus.<br />
+In einem solchen Fall kann eine der Eintragungen gelöscht werden.
+
 
 
 ![Oberstufe_Faecher_unzKomb_1](./graphics/SVWS_Oberstufe_Faecher_unzKomb_1.png) 
@@ -25,12 +29,10 @@ Die Gründe für solche Bedingungen können eine möglichen Profilbildung aber a
 
 ## Beispiele
 
-*ER schließt KR aus* UND *KR schließt ER aus*. Daher erhalten im Beratungsbogen beide Fächer einen Warnhinweis.<br />
+*ER schließt KR aus*. Daher erhalten im Beratungsbogen beide Fächer einen Warnhinweis.<br />
 
 
-*KR schließt PL aus* aber nicht umgekehrt. Daher erhält im Beratungsbogen bei Wahl von *KR* nur *PL* den Warnhinweis, wenn es zusätzlich zu *KR* gewählt wird.
-
-*GE-ZK fordert SW-GK*. Daher erhält *SW* bei Wahl von *GE-ZK* einen Warnhinweis.
+*GE-ZK fordert SW-GK*. Daher erhält *SW* bei Wahl von *GE-ZK* einen Warnhinweis.<br />
 
 Anmerkung: Derzeit beteht keine Möglichkeit von **oder**-Forderungen, also z.B.*GE-ZK fordert SW-LK* **oder** *SW-GK*
 
