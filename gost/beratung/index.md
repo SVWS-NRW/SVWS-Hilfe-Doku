@@ -1,7 +1,7 @@
 # Beratung
 
 ## Vorlage Beratungsbogen
-Es kann unter Auswahl von **Allgemein/Vorlage** im Beratungsbogen eine Standardvorlage erstellt werden.  
+TEST: Es kann unter Auswahl von **Allgemein/Vorlage** im Beratungsbogen eine Standardvorlage erstellt werden.  
 Im Beispiel sind M und Sp belegt, da diese Fächer - ebenso wie D - eine Pflichtbelegung darstellen.
 Der Einsatz solcher Vorlagen ist optional.
 
