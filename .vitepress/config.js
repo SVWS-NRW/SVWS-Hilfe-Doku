@@ -58,10 +58,10 @@ sidebar:
 
 				{ text: 'Oberstufe', link: '/gost/', collapsed: true,  items:
 					[
-						{ text: 'Fächer', link: '/gost/abiturjahrgang/' },
+						{ text: 'Abiturjahrgang', link: '/gost/abiturjahrgang/' },
 						{ text: 'Fächer', link: '/gost/faecher/' },
-						{ text: 'Fächer', link: '/gost/beratung/' },
-						{ text: 'Fächer', link: '/gost/laufbahn/' },
+						{ text: 'Beratung', link: '/gost/beratung/' },
+						{ text: 'Laufbahnplanung', link: '/gost/laufbahn/' },
 						{ text: 'Fachwahlen', link: '/gost/fachwahlen/' },
 						{ text: 'WebLuPO', link: '/gost/weblupo/' },
 						{ text: 'Kursplanung', link: '/gost/kursplanung/' },
