@@ -4,6 +4,15 @@ module.exports =
 title: 'SVWS Hilfe',
 description: 'Hilfeseiten SVWS-Client NRW',
 
+lastUpdated: {
+	text: 'Diese Seite wurde zuletzt bearbeitet am',
+	formatOptions: {
+	  dateStyle: 'full',
+	  timeStyle: 'medium'
+	}
+  },
+
+
 themeConfig:
 {
 

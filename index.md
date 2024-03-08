@@ -1,5 +1,21 @@
+<script setup lang="ts">
+import { data } from './build.data';
+
+const datum = (t) => {
+  // gibt ein Datum im deutschen Format zurück
+  try {
+    return new Date(t).toLocaleDateString('de', {day: '2-digit', month: '2-digit', year: 'numeric', timeZone: 'Europe/Berlin'})
+  } catch (e) {console.log(e); return 'Datumsfehler'}
+}
+</script>
+
+
+
 # SVWS-Dokumentation
 Hilfe und Handbuch
+
+
+<pre>Erstellungsdatum {{ datum(data.buildDate) }}</pre>
 
 ## Hilfe zum SVWS-Client (Browser-App für Schulverwaltungsaufgaben) 
 
