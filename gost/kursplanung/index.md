@@ -51,11 +51,36 @@ Die **Symbole** hinter den Namen stehen für das **Geschlecht** und die Eigensch
 
 
 
-### Blockung berechnen
+## Blockung berechnen
+Um eine Blockung berechnen zu lassen, müssen zuvor
+- Kurse eingerichtet werden  
+
+und können zusätzlich  
+- Fixierungen und Sperrungen von Kursen für bestimmte Schienen festgelegt werden  
+- mögliche Schülerfixierungen in Kurse gesetzt werden  
+- weitere Regeln (s.u.) gesetzt werden
+
 
 ### Ableiten einer Blockung
+Um ein vorliegendes Ergebnis einer Berechnung oder den Grundzustand der Blockungseinrichtung bestehen zu lassen und immer wieder darauf zurückgreifen zu können, kann durch **"Ableiten"** die Blockung dupliziert werden. Es können dann neue Regeln ergänzt oder bestehende gelöscht werden, um dann wieder neu zu berechnen.
+
+
+### Berechnungen durchführen
+
+![Berechnung](./graphics/SVWS_Oberstufe_Kursplanung_5.png)  
+
+Es kann gewählt werden, ob die Berechnungen von eigenen Client-PC (ausführlich) oder dem Server (schnell) berechnet werden sollen.  
+Unter **Ausführlich** können unter den ausgegebenen Ergebnissen bestimmte ausgewählt werden. 
+Unter **Schnell** können zu schlechte Ergebnisse unmittelbar gelöscht werden.
+
 
 ### Bewertungskriterien 
+
+In beiden Berechnungsszenarien werden die Ergebnisse mit vier Bewertungskriterien angegeben.  Durch Bewegung des Mauszeigers auf die Werte werden weitere Erklärungen dazu sichtbar (Fly-Over-Menü bzw. Tool-Tips).  
+- Regelverletzungen (sollten 0 sein)
+- Fachwahlkonflikte (sollten 0 sein)
+- Kursdifferenzen (hängt von individuellen Bedingungen ab)
+- Häufigkeit der Kursdifferenzen größer 0 (im Fly-Over-Tool-Tip werden die betroffenen Kurse angezeigt.)
 
 ### Blockung aktivieren
 
