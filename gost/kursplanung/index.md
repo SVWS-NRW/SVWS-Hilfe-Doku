@@ -32,9 +32,10 @@ Hinweis: sollte eine Kursgröße in diesem Format angegeben sein: 14|3, so befin
 
 
 
+### Schülerlisten (nach Filter)   
+
 ![Blockungsschuelerlisten](./graphics/SVWS_Oberstufe_Kursplanung_3.png)
 
-### Schülerlisten (nach Filter)    
 
 Rechts neben der Kursübersicht befinden sich **Schülerlisten**, deren Inhalt **gefiltert** werden kann:
 - **kein Filter**
