@@ -9,6 +9,8 @@ Wiederherstellung erfolgt dann, wenn die vorliegende Datenbank bereits importier
 
 
 ### Fall Wiederherstellung und Weiterbearbeitung
+Wiederherstellung ist nur möglich, wenn in der Datenbank bereits Blockungsdaten vorliegen, z.B. nach einer Migration einer Schild2-Datenbank oder vergleichbare Datenbestände.  
+ 
 Nach Auswahl von Abiturjahrgang und Abschnitt **Wiederherstellen** aktivieren. Die Blockung wird dann als **Restaurierte** Blockung angezeigt. 
 Angezeigt wird eine Übersicht über eingerichtete Kurse, in welchen Schienen sie liegen usw.
 
@@ -17,7 +19,9 @@ Angezeigt wird eine Übersicht über eingerichtete Kurse, in welchen Schienen si
 
 ![Blockungsneuerstellen](./graphics/SVWS_Oberstufe_Kursplanung_4.png)
 
-Über das **+**-Symbol wird eine neue Blockung erstellt
+Über das **+**-Symbol wird eine neue Blockung erstellt.  
+Es sollten dazu vollständige Fachwahlen für den gewählten Abschnitt vorliegen.  
+Zum Ablauf der Einrichtung/Erstellung einer neuen Blockung siehe [Erstellen einer neuen Blockung](## Erstellen einer neuen Blockung)
 
 
 
@@ -40,11 +44,11 @@ Hinweis: sollte eine Kursgröße in diesem Format angegeben sein: 14|3, so befin
 Rechts neben der Kursübersicht befinden sich **Schülerlisten**, deren Inhalt **gefiltert** werden kann:
 - **kein Filter**
 - **Fachfilter**: Schüler mit einem bestimmten gewählten Fach und Kursart filtern. Beispiel: Alle mit **Fachwahl Deutsch LK**
-- **Kursfilter**: Schüler eines gewählten Kurses filtern. Beispiel: Alle, die den **Kurs D-LK1** zugewiesen sind.
+- **Kursfilter**: Schüler eines gewählten Kurses filtern. Beispiel: Alle, die dem **Kurs D-LK1** zugewiesen sind.
 
 Weiterhin kann auf diese Eigenschaften gefiltert werden:
-- **K** Kollision: Schüler, die in der aktuellen Blockung eine Kurskollision haben, also zwei Kurse in einer Schiene.
-- **NV** Nicht Verteilt: Schüler, für die mindestens eine Fachwahl kein Kurs zugewiesen ist.
+- **K** **K**ollision: Schüler, die in der aktuellen Blockung eine Kurskollision haben, also zwei Kurse in einer Schiene.
+- **NV** **N**icht **V**erteilt: Schüler, für die mindestens eine Fachwahl keinem Kurs zugewiesen ist.
 - **K/NV**: Schüler mit Kollision und einer nicht verteilten Fachwahl. 
 
 Die **Symbole** hinter den Namen stehen für das **Geschlecht** und die Eigenschaft **mündlich** oder **schriftlich** belegt.
@@ -82,23 +86,21 @@ In beiden Berechnungsszenarien werden die Ergebnisse mit vier Bewertungskriterie
 - Kursdifferenzen (hängt von individuellen Bedingungen ab)
 - Häufigkeit der Kursdifferenzen größer 0 (im Fly-Over-Tool-Tip werden die betroffenen Kurse angezeigt.)
 
-### Blockung aktivieren
+## Blockung aktivieren
 
-## Regelsätze zum Blocken
+Ist die Blockung fertig, kann sie durch **Blockung aktivieren** in die Datenbestände (Kurse, SchülerLeistungsdaten, ...) übernommen werden.
+
+## Erstellen einer neuen Blockung
 
 ### neue Regeln einfügen
 
-### ein paar Standartbeispiele 
+### ein paar Standardbeispiele 
 
 #### Sport nur Nachmittags
 
 #### Musik und Kunst parallel
 
-## Klausurplanung
 
-### neue Klausuren einrichten 
-
-### Klausuren im Terminplaner 
 
 
  
