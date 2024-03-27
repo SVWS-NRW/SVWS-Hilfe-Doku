@@ -9,7 +9,7 @@ Wiederherstellung erfolgt dann, wenn die vorliegende Datenbank bereits importier
 
 
 ### Fall Wiederherstellung und Weiterbearbeitung
-Wiederherstellung ist nur möglich, wenn in der Datenbank bereits Blockungsdaten vorliegen, z.B. nach einer Migration einer Schild2-Datenbank oder vergleichbare Datenbestände.  
+Wiederherstellung ist nur möglich, wenn in der Datenbank bereits Blockungsdaten vorliegen, z.B. nach einer Migration einer Schild2-Datenbank oder vergleichbarer Datenbestände.  
  
 Nach Auswahl von Abiturjahrgang und Abschnitt **Wiederherstellen** aktivieren. Die Blockung wird dann als **Restaurierte** Blockung angezeigt. 
 Angezeigt wird eine Übersicht über eingerichtete Kurse, in welchen Schienen sie liegen usw.
@@ -32,7 +32,7 @@ Zum Ablauf der Einrichtung/Erstellung einer **neuen Blockung** siehe [Erstellen 
 Die Blockungsübersicht zeigt die Lage der Kurse in den Schienen an, ebenso die Belegungszahl einer Schiene, die jeweilige Kursgröße.  
 Im Falle einer **neu angelegten Blockung liegt noch keine Verteilung** vor.  
 Hinweis: sollte eine Kursgröße in diesem Format angegeben sein: 14|3, so befinden sich in diesem Kurs 14 Schüler der eigenen Schule und 3 einer Koopschule (Status Extern)  
-**Weitere Funktionen** in dieser Übersicht werden unter **"Blockungsvorgaben bearbeiten"** erläutert.  
+**Weitere Funktionen** in dieser Übersicht werden unten stehend erläutert.  
 
 
 
@@ -100,9 +100,9 @@ Ist die Blockung fertig, kann sie durch **Blockung aktivieren** in die Datenbest
 
 ![Einstellungen](./graphics/SVWS_Oberstufe_Kursplanung_6.png)  
 
-1: **Hinzufügen** weiterer **Schienen**. Nicht benötigte Schienen können mit dem Papierkorb hinter der Schienennummer **gelöscht** werden.  
+**1**: **Hinzufügen** weiterer **Schienen**. Nicht benötigte Schienen können mit dem Papierkorb hinter der Schienennummer **gelöscht** werden.  
 
-2: Untermenü für einen eingerichteten Kurs
+**2**: Untermenü für einen eingerichteten Kurs
 + **Papierkorb**: Löschen des Kurses
 + **Hinzufügen**: Kurs des Faches und der Kursart wird hinzugefügt
 + **Aufteilen**: Zunächst wie Hinzufügen. Befinden sich Schüler in dem Kurs, so wird ein weiterer Kurs mit identischem Fach und Kursart hinzugefügt und die Schüler des gewählten Kurses hälftig in beide Kurse verteilt.
@@ -111,13 +111,13 @@ Ist die Blockung fertig, kann sie durch **Blockung aktivieren** in die Datenbest
 + **Zusatzkräfte**  können ggf. eingetragen werden.
 + **Schienen**: Der Kurs kann auf weitere Schienen verteilt werden (z.B. bei "Huckepackkursen" oder besonderen Stundenplankonstellationen).  
 
-3: Der Kurs kann per "Drag & Drop" in eine andere Schiene **verschoben** werden. Mit der Pinnnadel kann der Kurs in der Schiene **fixiert** werden (Nadel dann schwarz gefärbt).  
+**3**: Der Kurs kann per "Drag & Drop" in eine andere Schiene **verschoben** werden. Mit der Pinnnadel kann der Kurs in der Schiene **fixiert** werden (Nadel dann schwarz gefärbt).  
 
-4: Der Kurs wird entgegen des Vorschlages doch **angelegt**.  
+**4**: Der Kurs wird entgegen des Vorschlages doch **angelegt**.  
 
-5: Durch Klicken in ein Feld wird diese Lage **für den einen Kurs gesperrt**.  
+**5**: Durch Klicken in ein Feld wird diese Lage **für den einen Kurs gesperrt**.  
 
-6: Die gesamte Schiene kann für **eine oder mehrere Kursarten gesperrt** werden.
+**6**: Die gesamte Schiene kann für **eine oder mehrere Kursarten gesperrt** werden.
 
 **Hinweis:** Es ist häufig eine Frage des planerischen Geschickes (Übersicht, Reduktion von Rechenkapazität,...), ob Kurse eher in bestimmten Lagen fixiert, oder anders herum für bestimmte Lagen gesperrt werden.
 
