@@ -21,7 +21,7 @@ Angezeigt wird eine Übersicht über eingerichtete Kurse, in welchen Schienen si
 
 Über das **+**-Symbol wird eine neue Blockung erstellt.  
 Es sollten dazu vollständige Fachwahlen für den gewählten Abschnitt vorliegen.  
-Zum Ablauf der Einrichtung/Erstellung einer neuen Blockung siehe [Erstellen einer neuen Blockung](/## Erstellen einer neuen Blockung)
+Zum Ablauf der Einrichtung/Erstellung einer neuen Blockung siehe [Erstellen einer neuen Blockung](/Erstellen einer neuen Blockung)
 
 
 
