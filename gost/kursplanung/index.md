@@ -21,7 +21,7 @@ Angezeigt wird eine Übersicht über eingerichtete Kurse, in welchen Schienen si
 
 Über das **+**-Symbol wird eine neue Blockung erstellt.  
 Es sollten dazu vollständige Fachwahlen für den gewählten Abschnitt vorliegen.  
-Zum Ablauf der Einrichtung/Erstellung einer neuen Blockung siehe [Erstellen einer neuen Blockung](/gost/kursplanung/index.md#Erstellen-einer-neuen-Blockung)
+Zum Ablauf der Einrichtung/Erstellung einer **neuen Blockung** siehe [Erstellen einer neuen Blockung](/gost/kursplanung/index.md#Erstellen-einer-neuen-Blockung)
 
 
 
@@ -64,9 +64,8 @@ und können zusätzlich
 - mögliche Schülerfixierungen in Kurse gesetzt werden  
 - weitere Regeln (s.u.) gesetzt werden
 
+Siehe dazu hier: [Erstellen einer neuen Blockung](/gost/kursplanung/index.md#Erstellen-einer-neuen-Blockung)  
 
-### Ableiten einer Blockung
-Um ein vorliegendes Ergebnis einer Berechnung oder den Grundzustand der Blockungseinrichtung bestehen zu lassen und immer wieder darauf zurückgreifen zu können, kann durch **"Ableiten"** die Blockung dupliziert werden. Es können dann neue Regeln ergänzt oder bestehende gelöscht werden, um dann wieder neu zu berechnen.
 
 
 ### Berechnungen durchführen
@@ -84,7 +83,12 @@ In beiden Berechnungsszenarien werden die Ergebnisse mit vier Bewertungskriterie
 - Regelverletzungen (sollten 0 sein)
 - Fachwahlkonflikte (sollten 0 sein)
 - Kursdifferenzen (hängt von individuellen Bedingungen ab)
-- Häufigkeit der Kursdifferenzen größer 0 (im Fly-Over-Tool-Tip werden die betroffenen Kurse angezeigt.)
+- Häufigkeit der Kursdifferenzen größer 0 (im Fly-Over-Tool-Tip werden die betroffenen Kurse angezeigt.)  
+
+
+### Ableiten einer Blockung
+Um ein vorliegendes Ergebnis einer Berechnung oder den Grundzustand der Blockungseinrichtung bestehen zu lassen und immer wieder darauf zurückgreifen zu können, kann durch **"Ableiten"** die Blockung dupliziert werden. Es können dann neue Regeln ergänzt oder bestehende gelöscht werden, um dann wieder neu zu berechnen.
+
 
 ## Blockung aktivieren
 
@@ -92,7 +96,40 @@ Ist die Blockung fertig, kann sie durch **Blockung aktivieren** in die Datenbest
 
 ## Erstellen einer neuen Blockung
 
-### neue Regeln einfügen
+### Grundeinstellungen der Blockung
+
+![Einstellungen](./graphics/SVWS_Oberstufe_Kursplanung_6.png)  
+
+1: **Hinzufügen** weiterer **Schienen**. Nicht benötigte Schienen können mit dem Papierkorb hinter der Schienennummer **gelöscht** werden.  
+
+2: Untermenü für einen eingerichteten Kurs
++ **Papierkorb**: Löschen des Kurses
++ **Hinzufügen**: Kurs des Faches und der Kursart wird hinzugefügt
++ **Aufteilen**: Zunächst wie Hinzufügen. Befinden sich Schüler in dem Kurs, so wird ein weiterer Kurs mit identischem Fach und Kursart hinzugefügt und die Schüler des gewählten Kurses hälftig in beide Kurse verteilt.
++ **Zusammenlegen**: Es kann ein Kurs mit identischem Fach und Kursart gewählt werden, dessen Schüler werden dann in den ausgewählten Kurs übernommen, der dann leere Kurs wird unmittelbar gelöscht.
++ **Externe Schüler**: Durch **+** kann bereits die Zahl der zu erwartenden externen Schüler ergänzt werden. Dieser Wert wird dann bei den Kursdifferenzen berücksichtigt.
++ **Zusatzkräfte**  können ggf. eingetragen werden.
++ **Schienen**: Der Kurs kann auf weitere Schienen verteilt werden (z.B. bei "Huckepackkursen" oder besonderen Stundenplankonstellationen).  
+
+3: Der Kurs kann per "Drag & Drop" in eine andere Schiene **verschoben** werden. Mit der Pinnnadel kann der Kurs in der Schiene **fixiert** werden (Nadel dann schwarz gefärbt).  
+
+4: Der Kurs wird entgegen des Vorschlages doch **angelegt**.  
+
+5: Durch Klicken in ein Feld wird diese Lage **für den einen Kurs gesperrt**.  
+
+6: Die gesamte Schiene kann für **eine oder mehrere Kursarten gesperrt** werden.
+
+**Hinweis:** Es ist häufig eine Frage des planerischen Geschickes (Übersicht, Reduktion von Rechenkapazität,...), ob Kurse eher in bestimmten Lagen fixiert, oder anders herum für bestimmte Lagen gesperrt werden.
+
+
+
+### Regeln
+
+### Fixierungen
+
+Wurden alle Einstellungen gesetzt, kann die Blockung berechnet werden.  
+Siehe [Berechnungen durchführen](/gost/kursplanung/index.md#Berechnungen-durchführen)
+
 
 ### ein paar Standardbeispiele 
 
