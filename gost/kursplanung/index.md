@@ -31,6 +31,9 @@ Zum Ablauf der Einrichtung/Erstellung einer **neuen Blockung** siehe [Erstellen 
 
 Die Blockungsübersicht zeigt die Lage der Kurse in den Schienen an, ebenso die Belegungszahl einer Schiene, die jeweilige Kursgröße.  
 Im Falle einer **neu angelegten Blockung liegt noch keine Verteilung** vor.  
+
+Durch Anklicken eines Kursnamens kann dieser in seiner Bezeichnung ergänzt, jedoch nicht vollständig umbenannt werden. So kann *BI-LK2* zu *BI-LK-Koop* ergänzt werden.
+
 Hinweis: sollte eine Kursgröße in diesem Format angegeben sein: 14|3, so befinden sich in diesem Kurs 14 Schüler der eigenen Schule und 3 einer Koopschule (Status Extern)  
 **Weitere Funktionen** in dieser Übersicht werden unten stehend erläutert.  
 
@@ -136,8 +139,11 @@ Siehe [Berechnungen durchführen](/gost/kursplanung/index.md#berechnungen-durchf
 
 ### Beispiele und Praxistipps
 
-Im folgenden Beispiel werden zunächst die Leistungskurse und anschließend die Grundkurse geblockt.  
+Im folgenden Beispiel werden **zunächst die Leistungskurse** und **anschließend die Grundkurse** geblockt.  
  
+
+#### LK-Blockung
+
 Es sind einige erkennbare und nicht erkennbare Regeln und Fixierungen enthalten.:  
 
 ![Beispiel1](./graphics/SVWS_Oberstufe_Kursplanung_Bsp1.png)  
@@ -169,6 +175,27 @@ Der Haken der Wunschergebnisses (und evtl. die Startvorlage) kann entfernt werde
 
 **Hinweis:** Änderungen der Regeln sind nicht mehr möglich, solange mehrere Ergebnisse vorliegen. Es können jetzt nur Kurse-Schienen- oder Kurs-Schüler-Zuordnungen geändert werden.  
 Zum **Ändern von Regeln** für neue Berechnungen darf entweder **nur ein Ergebnis stehen bleiben** oder die **Blockung muss abgeleitet werden**. Letzteres hat den Vorteil, dass auf die bisherigen Ergbnisse immer wieder zurückgegriffen werden kann.
+
+#### GK-Blockung
+
+Um nur noch die GKs zu blocken werden erst alle **LKs in ihren Lagen fixiert**, dann alle **Schüler in den LKs fixiert**.  
+(Anmerkung: Evtl. kommt in späteren Versionen die Option hinzu, bestimmte Kurse beim Blocken gar nicht erst zu berücksichtigen.)  
+
+##### Zusatzbeispiel: Spezialfall Sportprofile
+
+Es kann (nicht nur in Sport) vorkommen, dass bereits vor dem Blocken ein Kurs eines Faches eine bestimmte Schülergruppe enthalten muss.  
+Hier kann die Funktion **Kurse: Schülerzuordnung** eingesetzt werden.  
+
+1. **Leeren des Fußball-Kurses** SP-GK1-FB ![Beispiel1-Sport 1](./graphics/SVWS_Oberstufe_Kursplanung_Sport-1.png)
+
+2. **Zuweisung** Schüler in SP-GK1-FB ![Beispiel1-Sport 1](./graphics/SVWS_Oberstufe_Kursplanung_Sport-2.png)  
+
+3. **Vorgang** für die anderen drei Sportkurse entsprechend **wiederholen**.  
+
+4. Sport-GKs auswählen (Haken setzen) und **Schülermenge fixieren**. 
+
+5. Falls alle oder einige dieser Kurse z.B. nachmittags stattfinden, können zusätzlich diese **Kurse noch in bestimmten Schienen fixiert** werden.
+
 
 
 
