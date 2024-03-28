@@ -125,13 +125,49 @@ Ist die Blockung fertig, kann sie durch **Blockung aktivieren** in die Datenbest
 
 ### Regeln
 
+*in Bearbeitung*
+
 ### Fixierungen
+
+*in Bearbeitung*
 
 Wurden alle Einstellungen gesetzt, kann die Blockung berechnet werden.  
 Siehe [Berechnungen durchführen](/gost/kursplanung/index.md#berechnungen-durchführen)
 
+### Beispiele und Praxistipps
 
-### ein paar Standardbeispiele 
+Im folgenden Beispiel werden zunächst die Leistungskurse und anschließend die Grundkurse geblockt.  
+ 
+Es sind einige erkennbare und nicht erkennbare Regeln und Fixierungen enthalten.:  
+
+![Beispiel1](./graphics/SVWS_Oberstufe_Bsp1.png)  
+
++ Einige **LKs** wurden in Schienen **fixiert** (schwarze Pinnnadeln).  
++ Die Schienen 3 bis 11 wurde für **Leistunskurse gesperrt** (graue Felder bei LKs).  
++ Die Schienen 1 und 2 wurden für **GKs und ZKs gesperrt** (graue Felder bei GKs, i.d.R. redundant durch LK-Setzung in Schienen 1 und 2). 
++ Die Kurse SP-LK1 und BI-LK2 sind **Koop-Kurse** (Unterricht an anderer Schule, Haken bei Koop gesetzt).  
++ Der Kurs BI-LK2 wurde auf **maximal zwei Schüler** begrenzt. Diese zwei Schüler belegen gleichzeitig M-LK1, daher sollen **nur diese beiden** in BI-LK2, aber niemand sonst, auch wenn das aus Blockungssicht möglich wäre.  
++ Die LKS D und E haben zunächst keine Vorgaben.
+
+Einmaliges schnelles Blocken liefert evtl. noch Kollisionen, eine weitere Blockungsberechnung liefert in diesem Beispiel aber u.a. dieses Ergebnis:
+
+![Beispiel1-Ergebnis](./graphics/SVWS_Oberstufe_Bsp1-Ergbenis.png) 
+
+Hier kann jetzt ein Ergebnis ausgewählt werden:
+
+![Beispiel1-Auswahl](./graphics/SVWS_Oberstufe_Bsp1-Auswahl.png)
+
+Ebenso können definitiv unbrauchbare Ergbnisse gelöscht werden. Wird der Haken direkt bei **ID** gesetzt, werden alle Ergebnisse markiert.  
+Der Haken der Wunschergebnisses (und evtl. die Startvorlage) kann entfernt werden. Dann können alle anderen Ergbnisse auf einmal gelöscht werden.
+
+
+**Hinweis:** Änderungen der Regeln sind nicht mehr möglich, solange mehrere Ergebnisse vorliegen. Es können jetzt nur Kurse-Schienen- oder Kurs-Schüler-Zuordnungen geändert werden.  
+Zum **Ändern von Regeln** für neue Berechnungen darf entweder **nur ein Ergebnis stehen bleiben** oder die **Blockung muss abgeleitet werden**. Letzteres hat den Vorteil, dass auf die bisherigen Ergbnisse immer wieder zurückgegriffen werden kann.
+
+
+
+
+
 
 #### Sport nur Nachmittags
 
