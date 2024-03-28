@@ -21,7 +21,7 @@ Angezeigt wird eine Übersicht über eingerichtete Kurse, in welchen Schienen si
 
 Über das **+**-Symbol wird eine neue Blockung erstellt.  
 Es sollten dazu vollständige Fachwahlen für den gewählten Abschnitt vorliegen.  
-Zum Ablauf der Einrichtung/Erstellung einer **neuen Blockung** siehe [Erstellen einer neuen Blockung](/gost/kursplanung/index.md#Erstellen-einer-neuen-Blockung)
+Zum Ablauf der Einrichtung/Erstellung einer **neuen Blockung** siehe [Erstellen einer neuen Blockung](/gost/kursplanung/index.md#erstellen-einer-neuen-blockung)
 
 
 
@@ -64,7 +64,7 @@ und können zusätzlich
 - mögliche Schülerfixierungen in Kurse gesetzt werden  
 - weitere Regeln (s.u.) gesetzt werden
 
-Siehe dazu hier: [Erstellen einer neuen Blockung](/gost/kursplanung/index.md#Erstellen-einer-neuen-Blockung)  
+Siehe dazu hier: [Erstellen einer neuen Blockung](/gost/kursplanung/index.md#erstellen-einer-neuen-blockung)  
 
 
 
@@ -128,7 +128,7 @@ Ist die Blockung fertig, kann sie durch **Blockung aktivieren** in die Datenbest
 ### Fixierungen
 
 Wurden alle Einstellungen gesetzt, kann die Blockung berechnet werden.  
-Siehe [Berechnungen durchführen](/gost/kursplanung/index.md#Berechnungen-durchführen)
+Siehe [Berechnungen durchführen](/gost/kursplanung/index.md#berechnungen-durchführen)
 
 
 ### ein paar Standardbeispiele 
