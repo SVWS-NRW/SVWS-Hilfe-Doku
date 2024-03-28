@@ -140,7 +140,7 @@ Im folgenden Beispiel werden zunächst die Leistungskurse und anschließend die 
  
 Es sind einige erkennbare und nicht erkennbare Regeln und Fixierungen enthalten.:  
 
-![Beispiel1](./graphics/SVWS_Oberstufe_Bsp1.png)  
+![Beispiel1](./graphics/SVWS_Oberstufe_Kursplanung_Bsp1.png)  
 
 + Einige **LKs** wurden in Schienen **fixiert** (schwarze Pinnnadeln).  
 + Die Schienen 3 bis 11 wurde für **Leistunskurse gesperrt** (graue Felder bei LKs).  
@@ -151,11 +151,11 @@ Es sind einige erkennbare und nicht erkennbare Regeln und Fixierungen enthalten.
 
 Einmaliges schnelles Blocken liefert evtl. noch Kollisionen, eine weitere Blockungsberechnung liefert in diesem Beispiel aber u.a. dieses Ergebnis:
 
-![Beispiel1-Ergebnis](./graphics/SVWS_Oberstufe_Bsp1-Ergbenis.png) 
+![Beispiel1-Ergebnis](./graphics/SVWS_Oberstufe_Kursplanung_Bsp1-Ergbenis.png) 
 
 Hier kann jetzt ein Ergebnis ausgewählt werden:
 
-![Beispiel1-Auswahl](./graphics/SVWS_Oberstufe_Bsp1-Auswahl.png)
+![Beispiel1-Auswahl](./graphics/SVWS_Oberstufe_Kursplanung_Bsp1-Auswahl.png)
 
 Ebenso können definitiv unbrauchbare Ergbnisse gelöscht werden. Wird der Haken direkt bei **ID** gesetzt, werden alle Ergebnisse markiert.  
 Der Haken der Wunschergebnisses (und evtl. die Startvorlage) kann entfernt werden. Dann können alle anderen Ergbnisse auf einmal gelöscht werden.
