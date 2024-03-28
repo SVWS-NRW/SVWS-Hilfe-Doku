@@ -192,11 +192,23 @@ Hier kann die Funktion **Kurse: Schülerzuordnung** eingesetzt werden.
 2. **Zuweisung** Schüler in SP-GK1-FB  
 ![Beispiel1-Sport 1](./graphics/SVWS_Oberstufe_Kursplanung_Sport-2.png)  
 
+Ergänzend können die hier schon **Schüler in Ziel-Kursen fixiert** werden. 
+
 3. **Vorgang** für die anderen drei Sportkurse entsprechend **wiederholen**.  
 
 4. Sport-GKs auswählen (Haken setzen) und **Schülermenge fixieren**. 
 
 5. Falls alle oder einige dieser Kurse z.B. nachmittags stattfinden, können zusätzlich diese **Kurse noch in bestimmten Schienen fixiert** werden.
+
+
+##### Zusatzbeispiel Kerngruppen/Parallelkurse
+
+Hier wird dargestellt, wie z.B. in einer **EF feste Gruppen für D, M und E-Kurse** gebildet werden. D.h. die Schülergruppe hat die Fächer D, M und E immer gemeinsam, ggf. kann auch Sport dazu ergänzt werden.  
+
+Über **Kurse: Schülerzuordnung** kann eine feste Schülergruppe mehreren Kursen zugewiesen (und dort fixiert) werden.  
+Dazu werden die Schüler erst einem Kurs (hier D-GK1) zugeordnet, dann werden weitere Kurse ausgewählt.  
+
+![Beispiel Kerngruppe](./graphics/SVWS_Oberstufe_Kursplanung_Zuordnung1.png)  
 
 
 
