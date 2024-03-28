@@ -186,9 +186,11 @@ Um nur noch die GKs zu blocken werden erst alle **LKs in ihren Lagen fixiert**, 
 Es kann (nicht nur in Sport) vorkommen, dass bereits vor dem Blocken ein Kurs eines Faches eine bestimmte Schülergruppe enthalten muss.  
 Hier kann die Funktion **Kurse: Schülerzuordnung** eingesetzt werden.  
 
-1. **Leeren des Fußball-Kurses** SP-GK1-FB ![Beispiel1-Sport 1](./graphics/SVWS_Oberstufe_Kursplanung_Sport-1.png)
+1. **Leeren des Fußball-Kurses** SP-GK1-FB  
+![Beispiel1-Sport 1](./graphics/SVWS_Oberstufe_Kursplanung_Sport-1.png)
 
-2. **Zuweisung** Schüler in SP-GK1-FB ![Beispiel1-Sport 1](./graphics/SVWS_Oberstufe_Kursplanung_Sport-2.png)  
+2. **Zuweisung** Schüler in SP-GK1-FB  
+![Beispiel1-Sport 1](./graphics/SVWS_Oberstufe_Kursplanung_Sport-2.png)  
 
 3. **Vorgang** für die anderen drei Sportkurse entsprechend **wiederholen**.  
 
