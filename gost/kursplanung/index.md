@@ -143,15 +143,21 @@ Es sind einige erkennbare und nicht erkennbare Regeln und Fixierungen enthalten.
 ![Beispiel1](./graphics/SVWS_Oberstufe_Kursplanung_Bsp1.png)  
 
 + Einige **LKs** wurden in Schienen **fixiert** (schwarze Pinnnadeln).  
+
 + Die Schienen 3 bis 11 wurde für **Leistunskurse gesperrt** (graue Felder bei LKs).  
-+ Die Schienen 1 und 2 wurden für **GKs und ZKs gesperrt** (graue Felder bei GKs, i.d.R. redundant durch LK-Setzung in Schienen 1 und 2). 
+
++ Die Schienen 1 und 2 wurden für **GKs und ZKs gesperrt** (graue Felder bei GKs, i.d.R. redundant durch LK-Setzung in Schienen 1 und 2).   
+
 + Die Kurse SP-LK1 und BI-LK2 sind **Koop-Kurse** (Unterricht an anderer Schule, Haken bei Koop gesetzt).  
-+ Der Kurs BI-LK2 wurde auf **maximal zwei Schüler** begrenzt. Diese zwei Schüler belegen gleichzeitig M-LK1, daher sollen **nur diese beiden** in BI-LK2, aber niemand sonst, auch wenn das aus Blockungssicht möglich wäre.  
-+ Die LKS D und E haben zunächst keine Vorgaben.
+
++ Der Kurs BI-LK2 wurde auf **maximal zwei Schüler** begrenzt. Diese zwei Schüler belegen gleichzeitig M-LK1, daher sollen **nur diese beiden** in BI-LK2 (Diese Regel ist nur unter **Regeln Detailansicht** sichtbar).  
+
++ Die LKS D und E haben zunächst keine Vorgaben.  
+
 
 Einmaliges schnelles Blocken liefert evtl. noch Kollisionen, eine weitere Blockungsberechnung liefert in diesem Beispiel aber u.a. dieses Ergebnis:
 
-![Beispiel1-Ergebnis](./graphics/SVWS_Oberstufe_Kursplanung_Bsp1-Ergbenis.png) 
+![Beispiel1-Ergebnis](./graphics/SVWS_Oberstufe_Kursplanung_Bsp1-Ergebnis.png) 
 
 Hier kann jetzt ein Ergebnis ausgewählt werden:
 
