@@ -137,12 +137,12 @@ Ist die Blockung fertig, kann sie durch **Blockung aktivieren** in die Datenbest
 Wurden alle Einstellungen gesetzt, kann die Blockung berechnet werden.  
 Siehe [Berechnungen durchführen](/gost/kursplanung/index.md#berechnungen-durchführen)
 
-### Beispiele und Praxistipps
+## Beispiele und Praxistipps
 
 Im folgenden Beispiel werden **zunächst die Leistungskurse** und **anschließend die Grundkurse** geblockt.  
  
 
-#### LK-Blockung
+### LK-Blockung
 
 Es sind einige erkennbare und nicht erkennbare Regeln und Fixierungen enthalten.:  
 
@@ -176,12 +176,12 @@ Der Haken der Wunschergebnisses (und evtl. die Startvorlage) kann entfernt werde
 **Hinweis:** Änderungen der Regeln sind nicht mehr möglich, solange mehrere Ergebnisse vorliegen. Es können jetzt nur Kurse-Schienen- oder Kurs-Schüler-Zuordnungen geändert werden.  
 Zum **Ändern von Regeln** für neue Berechnungen darf entweder **nur ein Ergebnis stehen bleiben** oder die **Blockung muss abgeleitet werden**. Letzteres hat den Vorteil, dass auf die bisherigen Ergbnisse immer wieder zurückgegriffen werden kann.
 
-#### GK-Blockung
+### GK-Blockung
 
 Um nur noch die GKs zu blocken werden erst alle **LKs in ihren Lagen fixiert**, dann alle **Schüler in den LKs fixiert**.  
 (Anmerkung: Evtl. kommt in späteren Versionen die Option hinzu, bestimmte Kurse beim Blocken gar nicht erst zu berücksichtigen.)  
 
-##### Zusatzbeispiel: Spezialfall Sportprofile
+#### Zusatzbeispiel: Spezialfall Sportprofile
 
 Es kann (nicht nur in Sport) vorkommen, dass bereits vor dem Blocken ein Kurs eines Faches eine bestimmte Schülergruppe enthalten muss.  
 Hier kann die Funktion **Kurse: Schülerzuordnung** eingesetzt werden.  
@@ -201,7 +201,7 @@ Ergänzend können die hier schon **Schüler in Ziel-Kursen fixiert** werden.
 5. Falls alle oder einige dieser Kurse z.B. nachmittags stattfinden, können zusätzlich diese **Kurse noch in bestimmten Schienen fixiert** werden.
 
 
-##### Zusatzbeispiel Kerngruppen/Parallelkurse
+#### Zusatzbeispiel Kerngruppen/Parallelkurse
 
 Hier wird dargestellt, wie z.B. in einer **EF feste Gruppen für D, M und E-Kurse** gebildet werden. D.h. die Schülergruppe hat die Fächer D, M und E immer gemeinsam, ggf. kann auch Sport dazu ergänzt werden.  
 
@@ -212,16 +212,11 @@ Dazu werden die Schüler erst einem Kurs (hier D-GK1) zugeordnet, dann werden we
 
 
 
+## Schüler individuell bearbeiten
 
+### Kurs: Schülerzuordnung
 
-
-
-#### Sport nur Nachmittags
-
-#### Musik und Kunst parallel
-
-
-
+### Blockungsmatrix
 
  
 
