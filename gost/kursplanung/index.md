@@ -150,7 +150,7 @@ Im folgenden Beispiel werden **zunächst die Leistungskurse** und **anschließen
 
 Es sind einige erkennbare und nicht erkennbare Regeln und Fixierungen enthalten.:  
 
-![Beispiel1](./graphics/SVWS_Oberstufe_Kursplanung_Bsp1.png)  
+![Beispiel1](./graphics/SVWS_Oberstufe_Kursplanung_Bsp1_LK-Regeln.png)  
 
 + Einige **LKs** wurden in Schienen **fixiert** (schwarze Pinnnadeln).  
 
