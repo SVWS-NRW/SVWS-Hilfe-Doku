@@ -125,14 +125,18 @@ Ist die Blockung fertig, kann sie durch **Blockung aktivieren** in die Datenbest
 **Hinweis:** Es ist häufig eine Frage des planerischen Geschickes (Übersicht, Reduktion von Rechenkapazität,...), ob Kurse eher in bestimmten Lagen fixiert, oder anders herum für bestimmte Lagen gesperrt werden.
 
 
-
-### Regeln
-
+### Kursauswahl
 *in Bearbeitung*
 
 ### Fixierungen
 
 *in Bearbeitung*
+
+### Regeln
+
+*in Bearbeitung*
+
+
 
 Wurden alle Einstellungen gesetzt, kann die Blockung berechnet werden.  
 Siehe [Berechnungen durchführen](/gost/kursplanung/index.md#berechnungen-durchführen)
@@ -216,7 +220,10 @@ Dazu werden die Schüler erst einem Kurs (hier D-GK1) zugeordnet, dann werden we
 
 ### Kurs: Schülerzuordnung
 
+*in Bearbeitung*  
+
+
 ### Blockungsmatrix
 
- 
+*in Bearbeitung*
 
