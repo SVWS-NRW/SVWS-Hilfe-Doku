@@ -143,6 +143,13 @@ Siehe [Berechnungen durchführen](/gost/kursplanung/index.md#berechnungen-durchf
 
 ## Beispiele und Praxistipps
 
+
+### Weiterblocken mit veränderten Regeln
+
+Nach einer Berechnung können die Regeln nicht mehr geändert werden.  
+Zum Ändern/Ergänzen von Regeln muss die **Blockung abgeleitet** werden oder alle **Blockungsergebnisse bis auf eines gelöscht** werden.
+
+
 Im folgenden Beispiel werden **zunächst die Leistungskurse** und **anschließend die Grundkurse** geblockt.  
  
 
