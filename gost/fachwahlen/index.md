@@ -1,6 +1,6 @@
 # Fachwahlen
 
-Hier finden Sie eine Übersicht über die Fachwahlen des ausgewählten Jahrgangs zum ausgewählen Lernabschnitt. 
+Hier finden Sie eine Übersicht über die Fachwahlen des ausgewählten Jahrgangs zum ausgewählten Lernabschnitt. 
 
 Es werden tabellarisch die Anwahlzahlen für eine Jahrgangsstufe in den jeweiligen Abschnitten angezeigt:
 
