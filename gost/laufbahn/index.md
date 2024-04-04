@@ -19,7 +19,7 @@ Intern gelangt man per **Zur Laufbahnplanung** in die individuelle Laufbahnplanu
 
 ## Export in WebLuPO
 
-Für die Verwendung von WebLuPO können durch **Exportieren alle** für die ganze Stufe die indivuduellen Laufbahndateien exportiert werden.  
+Für die Verwendung von WebLuPO können durch **Exportieren alle** für die ganze Stufe die individuellen Laufbahndateien exportiert werden.  
 
 Die Durchführung der Fachwahlen ist in WebLuPO beschrieben und analog zur Fachwahl in der internen individuellen Laufbahnplanung. 
 
@@ -27,4 +27,4 @@ Die Durchführung der Fachwahlen ist in WebLuPO beschrieben und analog zur Fachw
 
 Durch **Importieren** werden die bearbeiteten Laufbahndateien der Schüler wieder eingespielt.  
 In der vorliegenden Maske werden wie oben beschrieben aber nur die **Fehler in den Fachwahlen angezeigt, nicht hingegen die Fachwahlen selber**.  
-Zur Bearbeitung der Fachwahlen muss wieder in die interne Laufbahnplaung (**Zur Laufbahnplanung**) des Schülers gewechselt werden.
+Zur Bearbeitung der Fachwahlen muss wieder in die interne Laufbahnplanung (**Zur Laufbahnplanung**) des Schülers gewechselt werden.
