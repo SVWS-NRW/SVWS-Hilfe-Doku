@@ -1,10 +1,10 @@
 module.exports =
 {
 
-title: 'SVWS Hilfe',
-description: 'Hilfeseiten SVWS-Client NRW',
+  title: 'SVWS Hilfe',
+  description: 'Hilfeseiten SVWS-Client NRW',
 
-lastUpdated: {
+  lastUpdated: {
 	text: 'Diese Seite wurde zuletzt bearbeitet am',
 	formatOptions: {
 	  dateStyle: 'full',
@@ -12,17 +12,16 @@ lastUpdated: {
 	}
   },
 
+  search: { provider: 'local' 
+  },
 
-themeConfig:
-{
+  themeConfig: {
 
-sidebar:
-{
+    sidebar:
+    {
 
-
-
-'/':
-	[
+     '/':
+	 [
 		{ text: '',	items:
 			[
 				{ text: 'Schule', link: '/schule/', collapsed: true,  items:
@@ -95,7 +94,7 @@ sidebar:
             ]
         }
     ]
-}
-}
-};
+    }
+  }
+  };
 
