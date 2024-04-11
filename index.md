@@ -19,16 +19,19 @@ Hilfe und Handbuch
 
 ## Hilfe zum SVWS-Client (Browser-App für Schulverwaltungsaufgaben) 
 
-Der SVWS-Client ist eine Web-Applikation zur Unterstützung der Verwaltungsprozesse an den Schulen NRWs.  
+Der **SVWS-Client** ist eine Web-Applikation zur Unterstützung der Verwaltungsprozesse an den Schulen Nordrhein-Westfalens.  
 
-Der SVWS-Client schafft eine plattformübergreifende Benutzeroberfläche die mit allen gängigen Browsern aufgerufen werden kann.
-Dabei sollen nach und nach alle Aufgaben der alten Schulverwaltungsprogramme aus NRW implementiert werden.
-Der SVWS-Client ersetzt bereits die Programme Lupo und Kurs42 und kann die Individual- und Leistungsdaten der Schülerinnen und Schüler anzeigen.
-Die Verwaltung der Lehrkräfte ist bereits auch möglich.
+Der SVWS-Client schafft eine plattformübergreifende Benutzeroberfläche, die mit allen gängigen Browsern aufgerufen werden kann.
 
-Zusätzlich zu den bisherigen Angeboten ist im SVWS-Client eine komfortable Anzeige von Stundenplänen hinzugekommen.
+Dabei sollen nach und nach alle Aufgaben der bisherigen Schulverwaltungsprogramme aus NRW implementiert werden.
 
-Das Gesamtprojekt SVWS-Server ist ein Open-Source-Projekt des Landes Nordrhein-Westfalen.
+* Der SVWS-Client ersetzt bereits die Programme **LuPO** zur Laufbahnberatung in der gymnasialen Oberstufe und
+* **Kurs42** zur Erstellung von Blockungen.
+* Er die **Individual- und Leistungsdaten der Schülerinnen und Schüler** verwalten.
+* Die **Verwaltung der Lehrkräfte** ist ebenfalls möglich.
+* Zusätzlich zu den bisherigen Angeboten ist im SVWS-Client eine komfortable Anzeige von **Stundenplänen** hinzugekommen.
+
+Das Gesamtprojekt _SVWS-Server_ ist ein Open-Source-Projekt des Landes Nordrhein-Westfalen.
 
 
 ## Bedienungshilfe 
