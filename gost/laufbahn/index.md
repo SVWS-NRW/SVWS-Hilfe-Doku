@@ -1,6 +1,6 @@
 # Laufbahnen
 
-![SVWS_Oberstufe_Laufbahn_1](\graphics\SVWS_Oberstufe_Laufbahn_1.png)  
+![SVWS_Oberstufe_Laufbahn_1](.\graphics\SVWS_Oberstufe_Laufbahn_1.png)  
 
 
 Es wird die Schülerliste angezeigt, i.d.R. sind anfangs alle Laufbahnen noch unvollständig und daher **mit Fehlern**.
