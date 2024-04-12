@@ -1,11 +1,15 @@
 # Einrichtung der Jahrgänge
-Durch "+" können die aktiven Jahrgangsstufen der Oberstufe sowie eine ggf. neu zu planende EF hinzugefügt werden.  
+Bevor Sie einen Jahrgang hinzufügen, können Sie unter **Allgemein/Vorlage** die Vorlage für zu generierende Jahrgänge konfigurieren, auf welcher neu erzeugte Jahrgänge basieren.
 
-![Jahrgang-anlegen_1](./graphics/SVWS_Oberstufe_Jahrganganlegen_1.png) 
+![Jahrgang mit einem Klick auf das + anlegen.](./graphics/SVWS_Oberstufe_Jahrganganlegen_1.png "Ein Klick auf das + legt einen neuen Jahrgang an.")
 
-![Jahrgang-anlegen_2](./graphics/SVWS_Oberstufe_Jahrganganlegen_2.png)  
+Durch einen Klick auf das **+** können basierende auf den an der Schule aktiven Jahrgangsstufen kommende Abiturjahrgänge erzeugt werden.
 
-Es können nun die **allgemeine Vorlagen** oder individuell **die jeweilige Jahrgangsstufe** bearbeitet werden hinsichtlich:
+![Fügen Sie einen neuen Abiturjahrgang basienden auf den Jahrgängen in ihrer Schule hinzu.](./graphics/SVWS_Oberstufe_Jahrganganlegen_2.png)
+
+Nach dem Anlegen kann ein Jahrgang aus der Liste unter **Oberstufe** ausgewählt werden.
+
+Es können im Anschluss die **allgemeine Vorlagen** oder individuell **ein konkreter Abiturjahrgang** bearbeitet werden hinsichtlich der folgenden Punkte:
 1. Fächereigenschaften
 2. Ausschlussregeln
 3. Weitere Kombinationsbedingungen
@@ -14,4 +18,6 @@ Es können nun die **allgemeine Vorlagen** oder individuell **die jeweilige Jahr
 
 Nach Anklicken eines angelegten Jahrganges erweitert sich die Auwahl im rechten Fenster des Jahrganges:
 
-![Jahrgang-anlegen_2](./graphics/SVWS_Oberstufe_Uebersicht_1.png) 
+![Konfigurieren Sie einen angelegten Jahrgang.](./graphics/SVWS_Oberstufe_Uebersicht_1.png)
+
+Konfigurieren Sie nun den Jahrgang über die Einstellungen in den Reitern.
