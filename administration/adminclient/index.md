@@ -13,34 +13,42 @@ Bei einer lokalen Installation wäre _localhost/admin_.
 
 Oben links zeigt **Ro** an, dass der Rootuser angemeldet wurde.
 
-Melden Sie sich oben rechts mit einem Klick auf **Abmelden** ab.
+Melden Sie sich unten links mit einem Klick auf **Abmelden** ab.
 
-Wie im Client  gewohnt, lässt sich hier auch die **Ansicht** ändern.
+Wie im Client gewohnt, lässt sich hier auch die **Ansicht** ändern.
 
-## Schemamanagement
+## Schemamanagement ANPASSEN TODO!!!
 
-Darunter lassen sich die auf dieser MariaDB laufenden **Schemas** auswählen.
+Unter **Schema** lassen sich die auf dieser MariaDB laufenden Schemas auswählen.
 
-Zu jedem Schema werden dann rechts der **Name** und die **Daten der Schule** angezeigt. Ganz unten werden die **Admin-Benutzer** der jeweiligen Datenbank mit ihrem Namen und Benutzernamen aufgeführt. 
+Zu jedem Schema werden dann rechts der **Name** und die **Daten der Schule** oben rechts angezeigt. Ganz unten werden die **Admin-Benutzer** der jeweiligen Datenbank mit ihrem Namen und Benutzernamen aufgeführt. 
 
 Im mittleren Bereich lässt sich ein bisheriges SchILD-NRW-2-Schema in dieses Schema migrieren. Dieser Vorgang überschreibt die im Schema aktuell vorliegenden Daten.
 
-Weiterhin lässt sich das aktuelle Schema als **Backup** erstellen. Hierbei wird in eine .sqlite-Datei migirert, welche im Anschluss gespeichert wird und über **Schema aus Backup wiederherstellen** neu eingelesen werden kann.
+Weiterhin lässt sich das aktuelle Schema als **Backup erstellen**. Hierbei wird in eine .sqlite-Datei migirert, welche im Anschluss gespeichert wird und über **Backup wiederherstellen** neu eingelesen werden kann.
 
-## **TODO** - was tun die ganzen Angaben?
+### Weitere Information zu einem Schema
 
-In der Schema-Übersicht links finden sich Angaben zur **Revision**, **???** und **Irgendwas mit einer Config-Datei**.
+In der Schema-Übersicht links finden sich Angaben zur **Revision**, **Tainted** und **Config**.
 
-## Todo: Mülleimer und Bodenicons
+* Die **Revision** kennzeichnet den technischen Aufbau der Datenbank. Diese kann relevant sein, wenn externe Programme direkt auf die Datenbank zugreifen und diese Programme relativ zum Datenbankschema veralten. Über die Revision kann auf Kompatibilität geprüft werden, um Fehler zu vermeiden.
+* Ein Schema, das für die Entwicklung und zum Testen neuer Features gedacht ist, kann als  **Tainted** oder **Verschmutzt** markiert werden, damit dieses mit ihren Datenbanken nicht im echten Produktivbedtrieb zum Einsatz kommt.
+* Weiterhin ist es möglich, dass sich auf der MariaDB Schemas befinden, die aber nicht zum SVWS-Server gehören. Dieser werden dann als nicht zur **Config** des SVWS-Servers zu gehören und werden von diesem bezüglich des Servers und Clients ignoriert. Ein Beispiel könnte etwa ein Stundenplanprogramm eines anderen Herstellers oder die Datenbank der kommunalen Führerscheinstelle sein.
 
-### Schema-Icons
+## Operationen für ein neues Schema
 
-Über die Checkboxen lassen sich mehrere Schemas anwählen und gesammelt über einen dann darunter auftauchenden Mülleimer löschen.
+Über die **Checkboxen ☑** lassen sich eines oder mehrere Schemas anwählen und über einen dann darunter auftauchenden **Mülleimer 🗑** löschen.
 
-Es lässt sich über **ICON** eine SchILD-2-Datenbank in ein neues Schema migireren.
+![Migration einer Datenbank aus Acess, MySQL, Maria DB, MSSQL](./graphics/SVWS_adminclient_migration.png "Migration einer Datenbank aus MS Access, MySQL, Maria DB, MSSQL: Geben Sie die Daten für Quelle und Ziel ein.")
 
-Über **Pfeil nach unten** lässt sich ein gespeichertes sqlite-Image in ein neues Schema einspielen.
+Es lässt sich über **TODO ICON** eine SchILD-2-Datenbank in ein neues Schema migireren. Hierbei besteht die Auswahl aus den Quellen MS Access, MySQL, MariaDB, MSSQL und es sind die Daten einzugeben, um die Quelldatenbanken zu erreichen und das intendierte Ziel, das nun neu angelegt wird.
 
-Mittels **Kopieren** wird ein existierendes Schema dupliziert. 
+Hier im Beispiel wird eine "schildDB" einer fiktiven IP-Adresse abgerufen, um diese in die svwsdb einer Förderschule einzuspielen.
 
-Das **+** legt ein neues, leeres Schema an, in das migriert (usw.) werden kann.
+Bei einer Migration aus SchILDzentral ist eine Schulnummer zu übergeben.
+
+Über den drehenden Pfeil **↻** lässt sich ein gespeichertes sqlite-Image in ein *neues* Schema einspielen.
+
+Mittels **Kopieren 🗐** wird ein existierendes Schema dupliziert. 
+
+Das **+** legt ein neues, leeres Schema an, in das im Anschluss migriert, Backup eingespielt und so weiter werden kann.
