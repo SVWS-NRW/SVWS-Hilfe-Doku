@@ -1,6 +1,6 @@
 module.exports =
 {
-	base: '/svws-hilfe-doku/',
+	base: '/SVWS-Hilfe-Doku/',
 	title: 'SVWS Hilfe',
 	description: 'Hilfeseiten SVWS-Client NRW',
 	lastUpdated: {
