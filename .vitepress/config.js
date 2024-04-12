@@ -73,6 +73,11 @@ module.exports =
 						{ text: 'Hilfe', link: '/statistik/hilfe' }
 					]
 				},
+				{ text: 'Administration', link: '/administration/', collapsed: true,  items:
+					[
+						{ text: 'Admin Client', link: '/administration/adminclient/' }
+					]
+				},
 				{ text: 'Adressbücher', link: '/adressbuecher/' },
 				{ text: 'Kalender', link: '/kalender/' }, 
 				{ text: 'FAQ', link: '/faq/' }
