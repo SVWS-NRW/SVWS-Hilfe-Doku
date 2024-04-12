@@ -18,6 +18,6 @@ Es können im Anschluss die **allgemeine Vorlagen** oder individuell **ein konkr
 
 Nach Anklicken eines angelegten Jahrganges erweitert sich die Auwahl im rechten Fenster des Jahrganges:
 
-![Konfigurieren Sie einen angelegten Jahrgang über die Reiter.](./graphics/SVWS_Oberstufe_Uebersicht_1.png)
+![Konfigurieren Sie einen angelegten Jahrgang über die Reiter.](./graphics/SVWS_Oberstufe_Uebersicht_1.png "Über die Reiter lässt sich ein gewählter Jahrgang konfigurieren.")
 
 Konfigurieren Sie nun den Jahrgang über die Einstellungen in den Reitern.
