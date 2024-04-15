@@ -1,11 +1,10 @@
-import { defineConfig, loadEnv } from 'vitepress'
+import { defineConfig, loadEnv } from 'vite'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
 
   return {
-    // base: '/',
     base: env.BASE || '/SVWS-Hilfe-Doku/',
     title: 'SVWS Hilfe',
     description: 'Hilfeseiten SVWS-Client NRW',
@@ -85,4 +84,5 @@ export default defineConfig(({ mode }) => {
         ]
       }
     }
-}})
+  }
+})
