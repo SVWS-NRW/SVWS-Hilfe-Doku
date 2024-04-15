@@ -16,7 +16,7 @@ Diese Vorlage wird beim späteren Export der Schülerdateien, etwa in die \*.lp-
 
 ![Die Vorlage wird in einem Jahrgang übernommen](./graphics/SVWS_Oberstufe_Beratung_2.png "Wählen Sie einen Jahrgang und übernehmen Sie die aktuelle Vorlage für diesen.") 
 
-Klicken Sie in einem gewählten Jahrgang auf **Zurcüksetzen auf allg. Vorlage**, um die aktuell konfigurierte Vorlage in einem Jahrgang zu aktivieren.
+Klicken Sie in einem gewählten Jahrgang auf **Zurücksetzen auf allg. Vorlage**, um die aktuell konfigurierte Vorlage in einem Jahrgang zu aktivieren.
 
 ## Beratungslehrer hinterlegen
 Im Feld rechts neben der Beratungsbogenvorlage können **Beratungslehrer der Stufe** hinterlegt werden.  
