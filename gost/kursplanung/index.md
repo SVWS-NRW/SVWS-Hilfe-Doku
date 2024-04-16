@@ -134,7 +134,13 @@ Ist die Blockung fertig, kann sie durch **Blockung aktivieren** in die Datenbest
 
 ### Regeln
 
-*in Bearbeitung*
+Unter **Regeln: Detailansicht** können neben den graphisch zu setzenden Bedingungen weitere Regeln für die Blockung erstellt werden. Hier sind zahlreiche Einstellungen möglich, wie z.B. 
++ Kurse auf eine bestimmte Größe zu begrenzen
++ Kurse mit anderen Kursen bedingen oder ausschließen
++ Bestimmte Schüler in bestimmten Kursen bedingen oder ausschließen
+uvm.
+
+Der Regelkatalog wird immer wieder an Nutzerwünsche angepasst, die Formulierungen der Regeln sind i.d.R. selbsterklärend.
 
 
 
