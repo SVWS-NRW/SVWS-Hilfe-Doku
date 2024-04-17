@@ -127,7 +127,13 @@ Ist die Blockung fertig, kann sie durch **Blockung aktivieren** in die Datenbest
 
 ### Kursauswahl
 
-*in Bearbeitung*
+Durch Klicken auf die Teilnehmerzahl eines Kurses in der Schienenmatrix wird im Fach/Kursfilter neben der Schienenmatrix die Kursliste angezeigt.  
+Für jeden Schüler wird daneben (je nach Bildschirmgröße nach rechts scrollen) der jeweilige Umwahldialog angezeigt.  
+Es kann den jeweiligen Symbolen (s. Startseite Oberstufe) Eigenschaften der Schüler entnommen werden, wie  
+
++ Belegung schriftlich oder mündlich (Heft oder Sprechblase hinter Schülernamen)
++ Schüler im markierten Kurs fixiert (schwarze Pinnnadel vor Schülernamen)
++ Schüler in anderen Kursen fixiert (graue Pinnnadel vor Schülernamen)
 
 ### Fixierungen
 
