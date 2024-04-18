@@ -23,6 +23,7 @@ export default defineConfig(({ mode }) => {
       sidebar: {
         '/': [
           { text: '', items: [
+                { text: 'Anmeldung', link: '/anmeldung/', collapsed: true },
                 { text: 'Schule', link: '/schule/', collapsed: true, items: [
                       { text: 'Benutzerverwaltung', link: '/schule/benutzerverwaltung/' },
                       { text: 'Datenaustausch', link: '/schule/datenaustausch/' }
