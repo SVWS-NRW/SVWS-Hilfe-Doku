@@ -17,15 +17,17 @@ Melden Sie sich unten links mit einem Klick auf **Abmelden** ab.
 
 Wie im Client gewohnt, lässt sich hier auch die **Ansicht** ändern.
 
-## Schemamanagement ANPASSEN TODO!!!
+## Schemamanagement
 
-Unter **Schema** lassen sich die auf dieser MariaDB laufenden Schemas auswählen.
+Im Bereich **Schema** lassen sich die auf dieser MariaDB laufenden Schemas auswählen.
 
-Zu jedem Schema werden dann rechts der **Name** und die **Daten der Schule** oben rechts angezeigt. Ganz unten werden die **Admin-Benutzer** der jeweiligen Datenbank mit ihrem Namen und Benutzernamen aufgeführt. 
+Zu jedem Schema werden dann rechts der **Name** und und weiter rechts die **Daten der Schule** angezeigt. Weiterhin werden die **Admin-Benutzer** der jeweiligen Datenbank mit ihrem Namen und Benutzernamen aufgeführt. 
 
-Im mittleren Bereich lässt sich ein bisheriges SchILD-NRW-2-Schema in dieses Schema migrieren. Dieser Vorgang überschreibt die im Schema aktuell vorliegenden Daten.
+Im mittleren Bereich lässt sich ein bisheriges **SchILD-NRW-2-Schema** in dieses Schema **migrieren**. Dieser Vorgang überschreibt die im Schema aktuell vorliegenden Daten.
 
-Weiterhin lässt sich das aktuelle Schema als **Backup erstellen**. Hierbei wird in eine .sqlite-Datei migirert, welche im Anschluss gespeichert wird und über **Backup wiederherstellen** neu eingelesen werden kann.
+Weiterhin lässt sich in das aktuelle Schema ein **Backup wiederherstellen**. Hierbei wird in eine .sqlite-Datei eingelesen und in die MariaDB migriert. Das aktuelle Schema wird hierbei mit dem Backup überschrieben.
+
+Sollte die Revision nicht dem aktuellen Stand entsprechen, kann über einen erscheinenden Schalter versucht werden, die Revision auf die aktuelle hochzuschreiben. 
 
 ### Weitere Information zu einem Schema
 
@@ -39,16 +41,24 @@ In der Schema-Übersicht links finden sich Angaben zur **Revision**, **Tainted**
 
 Über die **Checkboxen ☑** lassen sich eines oder mehrere Schemas anwählen und über einen dann darunter auftauchenden **Mülleimer 🗑** löschen.
 
-![Migration einer Datenbank aus Acess, MySQL, Maria DB, MSSQL](./graphics/SVWS_adminclient_migration.png "Migration einer Datenbank aus MS Access, MySQL, Maria DB, MSSQL: Geben Sie die Daten für Quelle und Ziel ein.")
+![Die Buttons unter einem Schema](./graphics/SVWS_adminclient_Schemabuttons.png "Die Buttons von links nach rechts: Migrieren, sqlite-image einspielen, Schema kopieren, Neues Schema anlegen.")
 
-Es lässt sich über **TODO ICON** eine SchILD-2-Datenbank in ein neues Schema migireren. Hierbei besteht die Auswahl aus den Quellen MS Access, MySQL, MariaDB, MSSQL und es sind die Daten einzugeben, um die Quelldatenbanken zu erreichen und das intendierte Ziel, das nun neu angelegt wird.
-
-Hier im Beispiel wird eine "schildDB" einer fiktiven IP-Adresse abgerufen, um diese in die svwsdb einer Förderschule einzuspielen.
-
-Bei einer Migration aus SchILDzentral ist eine Schulnummer zu übergeben.
+Es lässt sich über das Icon mit den gestapelten Scheiben eine SchILD-2-Datenbank in ein neues Schema migireren.
 
 Über den drehenden Pfeil **↻** lässt sich ein gespeichertes sqlite-Image in ein *neues* Schema einspielen.
 
 Mittels **Kopieren 🗐** wird ein existierendes Schema dupliziert. 
 
 Das **+** legt ein neues, leeres Schema an, in das im Anschluss migriert, Backup eingespielt und so weiter werden kann.
+
+### Datenbank-Migration
+Klickt man auf **Datenbank migrieren** öffnet sich der Dialog zur Auswahl von Quelle und Ziel:
+
+![Migration einer Datenbank aus Acess, MySQL, Maria DB, MSSQL](./graphics/SVWS_adminclient_migration.png "Migration einer Datenbank aus MS Access, MySQL, Maria DB, MSSQL: Geben Sie die Daten für Quelle und Ziel ein.")
+
+Hierbei besteht die Auswahl aus den Quellen MS Access, MySQL, MariaDB, MSSQL und es sind die Daten einzugeben, um die Quelldatenbanken zu erreichen und das intendierte Ziel, das nun neu angelegt wird.
+
+Hier im Beispiel wird eine "schildDB" einer fiktiven IP-Adresse abgerufen, um diese in die svwsdb einer Förderschule einzuspielen.
+
+Bei einer Migration aus SchILDzentral ist eine Schulnummer zu übergeben.
+
