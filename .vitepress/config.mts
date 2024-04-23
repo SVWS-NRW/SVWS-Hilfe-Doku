@@ -20,6 +20,14 @@ export default defineConfig(({ mode }) => {
           timeStyle: 'medium'
         }
       },
+     // https://vitepress.dev/reference/default-theme-config
+    nav: [
+      { text: 'Schulungsunterlagen', link: 'https://svws-nrw.github.io/Schulungsunterlagen/' },
+      { text: 'Dokumentation', link: 'https://doku.svws-nrw.de' }
+    ],
+  socialLinks: [
+      { icon: 'github', link: 'https://github.com/SVWS-NRW' }
+    ],
       sidebar: {
         '/': [
           { text: '', items: [
