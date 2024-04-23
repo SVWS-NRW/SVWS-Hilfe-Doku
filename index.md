@@ -11,8 +11,7 @@ const datum = (t) => {
 
 
 
-# SVWS-Dokumentation
-Hilfe und Handbuch
+# SVWS Hilfe und Handbuch
 
 
 <pre>Erstellungsdatum {{ datum(data.buildDate) }}</pre>
