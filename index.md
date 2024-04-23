@@ -11,12 +11,12 @@ const datum = (t) => {
 
 
 
-# SVWS Hilfe und Handbuch
+# Hilfe und Handbuch
 
 
 <pre>Erstellungsdatum {{ datum(data.buildDate) }}</pre>
 
-## Hilfe zum SVWS-Client (Browser-App für Schulverwaltungsaufgaben) 
+## Hilfe zum SVWS-Client 
 
 Der **SVWS-Client** ist eine Web-Applikation zur Unterstützung der Verwaltungsprozesse an den Schulen Nordrhein-Westfalens.  
 
@@ -35,7 +35,7 @@ Das Gesamtprojekt _SVWS-Server_ ist ein Open-Source-Projekt des Landes Nordrhein
 
 ## Bedienungshilfe 
 
-### Aufbau des Handbuchs 
+## Aufbau des Handbuchs 
 
 ## Impressum
 
