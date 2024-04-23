@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     base: env.BASE || '/SVWS-Hilfe-Doku/',
-    title: 'SVWS Hilfe',
+    title: 'SVWS Hilfe und Handbuch',
     description: 'Hilfeseiten SVWS-Client NRW',
     lastUpdated: true,
     themeConfig: {
