@@ -87,7 +87,11 @@ export default defineConfig(({ mode }) => {
                 },
                 { text: 'Adressbücher', link: '/adressbuecher/' },
                 { text: 'Kalender', link: '/kalender/' },
-                { text: 'FAQ', link: '/faq/' }
+                { text: 'Informationen', link: '/informationen/', collapsed: true, items: [
+                  { text: 'Änderungen ', link: '/informationen/änderungen/' },
+                  { text: 'FAQ', link: '/informationen/faq' }
+                    ]
+                }
               ]
           }
         ]
