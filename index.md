@@ -32,10 +32,11 @@ Dabei sollen nach und nach alle Aufgaben der bisherigen Schulverwaltungsprogramm
 
 Das Gesamtprojekt _SVWS-Server_ ist ein Open-Source-Projekt des Landes Nordrhein-Westfalen.
 
+## Aufbau des Handbuchs 
 
-## Bedienungshilfe
+# Bedienungshilfe
 
-### Diese Webseite
+## Diese Webseite
 
 Auf der **linken** Seite des Fensters befindet sich das Inhaltsverzeichnis dieser Seite. In der **Mitte** sind die Informationen angezeigt. **Rechts** ist das *Inhaltsverzeichnis des Artikels* angezeigt.
 
@@ -45,9 +46,16 @@ Oben rechts können Sie die Webseite je nach Belieben vom *Hellen* Modus in den 
 
 *Hinweis:* Ist das Browserfenster zu schmal eingestellt, wird der rechte Bereich ausgeblendet.
 
-### Der SVWS-Client
+## Der SVWS-Client
 
 Der SVWS-Client wird über einen üblichen Internet Browser ausgeführt und arbeitet mit den großen Render-Engines für Browser zusammen.
+
+### Navigation
+
+* Kehren Sie über den Browser über die **zurück**-Schaltfläche zu einer vorherigen Seite zurück.
+* Wurde über das linke Inhaltsverzeichnis ein Unterpunkt aufgerufen, lässt sich darüber eine vorherige Ebene anwählen.
+
+![Vor- und Zurücknavigation über den Browser](./graphics/SVWS_hilfe-root_SchaltflächenNavigation.png "Navigation über die Vor- und Zurückschaltflächen des Browsers oder über die Schaltflächen im Browser.") 
 
 ### Zoom
 
@@ -74,8 +82,6 @@ Die Schaltflächen zum Abmelden und Ändern der Ansicht finden sich je nach Brow
 Im Browser installierte Plugins, etwa Screenreader, lassen sich somit auch mit dieser Webseite und im SVWS-Client verwenden.
 
 *Hinweis:* Für Drittsoftware wird kein Support unternommen und ein reibungsloses Funktionieren eines Plugins mit den Inhalten des SVWS-Clients kann nicht garantiert werden.
-
-## Aufbau des Handbuchs 
 
 ## Impressum
 
