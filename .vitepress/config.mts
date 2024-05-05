@@ -38,10 +38,14 @@ export default defineConfig(({ mode }) => {
                     ]
                 },
                 { text: 'Kataloge', link: '/kataloge/', collapsed: true, items: [
+                      { text: 'Aufsichtsbereiche', link: '/kataloge/aufsichtsbereiche/' },
                       { text: 'Fächer', link: '/kataloge/faecher/' },
                       { text: 'Förderschwerpunkte', link: '/kataloge/foerderschwerpunkte/' },
                       { text: 'Jahrgänge', link: '/kataloge/jahrgaenge/' },
-                      { text: 'Religionen', link: '/kataloge/religionen/' }
+                      { text: 'Pausenzeiten', link: '/kataloge/pausenzeiten/' },
+                      { text: 'Räume', link: '/kataloge/raeume/' },
+                      { text: 'Religionen', link: '/kataloge/religionen/' },
+                      { text: 'Zeitraster', link: '/kataloge/zeitraster/' },
                     ]
                 },
                 { text: 'Schüler', link: '/schueler/', collapsed: true, items: [
