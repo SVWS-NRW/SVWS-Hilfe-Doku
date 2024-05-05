@@ -31,7 +31,11 @@ export default defineConfig(({ mode }) => {
       sidebar: {
         '/': [
           { text: '', items: [
-                { text: 'Anmeldung', link: '/anmeldung/', collapsed: true },
+                { text: 'Anleitungen', link: '/anleitungen/', collapsed: true, items: [
+                    { text: 'Anmeldung', link: '/anleitungen/anmeldung/' }
+                    ]
+                },
+                { text: 'Aktueller Benutzer', link: '/aktuellernutzer/', collapsed: true },
                 { text: 'Schule', link: '/schule/', collapsed: true, items: [
                       { text: 'Benutzerverwaltung', link: '/schule/benutzerverwaltung/' },
                       { text: 'Datenaustausch', link: '/schule/datenaustausch/' }

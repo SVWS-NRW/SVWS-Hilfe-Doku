@@ -22,7 +22,7 @@ Im grünen Viereck sind die **Filter** aufgeführt.
 Es lassen sich hier auch mehrere Status gleichzeigt anwählen.
 
   * Im Zuge der Aufnahme lassen sich Personen im Status *Warteliste* parken. Personen, die für das kommende Schuljahr aufgenommen wurden, erhalten den Status *Neuaufnahme*.
-  * Schüler, die ihre Bildungslaufbahn an der Schule hinter sich haben, verfügen über den Status *Abgang* oder *Abschluss*. Letzteren Status erhalten Sie, wenn sie einem von ihrem vorgesehenen BIldungsgang erhaltenen Abschluss erlangt haben.
+  * Schüler, die ihre Bildungslaufbahn an der Schule hinter sich haben, verfügen über den Status *Abgang* oder *Abschlus s*. Letzteren Status erhalten Sie, wenn sie einem von ihrem vorgesehenen BIldungsgang erhaltenen Abschluss erlangt haben.
 
 * Weiterhin lassen sich auf **Jahrgänge** und/oder **Klassen** filtern.
 * Ebenso stehen die eingerichteten **Kurse** zur Auswahl.
