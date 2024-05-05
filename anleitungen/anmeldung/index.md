@@ -1,23 +1,23 @@
 # Anmeldung
 
-Bei erfolgreicher Verbindung zum SVWS-Client, werden man mit dem folgenden Anmeldebild empfangen:
+Bei erfolgreicher Verbindung zum SVWS-Client wird dieses Anmeldefenster angezeigt:
 
 ![Login-Bildschirm](graphics/login.png)
 
 ## 1 Die Serveradresse
 
-Hier wird die HTTPS-Adresse des Servers angegeben, dabei muss das `https://` ausgelassen werden, es wird vom SVWS-Client bei der Verbindung automatisch ergänzt. Es sind ausschließlich HTTPS-Verbindungen zum SVWS-Server zulässig.
+Hier wird die HTTPS-Adresse des Servers angegeben. Dabei muss das `https://` ausgelassen werden, es wird vom SVWS-Client bei der Verbindung automatisch ergänzt. Es sind ausschließlich HTTPS-Verbindungen zum SVWS-Server zulässig.
 
 Der Client versucht schon beim ersten Aufruf in folgender Reihenfolge automatisch eine Verbindung zum Server aufzubauen:
 
 + Verbindung zum gleichen Host - der Server befindet sich auf der gleichen Adresse wie der Client und verwendet dessen Port, sofern vorhanden.
-+ Verbindung zum gleichen Hostname - der Server befindet sich auf der gleichen Adresse, es wird aber der Standardport für HTTPS, Port 443, verwendet.
++ Verbindung zum gleichen Hostnamen - der Server befindet sich auf der gleichen Adresse, es wird aber der Standardport für HTTPS, Port 443, verwendet.
 
-Sind diese Verbindungsversuche erfolglos, muss die Adresse ensprechend angepasst werden. Wird z.B. ein Server unter einem anderen Port verwendet, so muss die Adresse inklusive Port angegeben werden.
+Sind diese Verbindungsversuche erfolglos, muss die Adresse ensprechend angepasst werden. Wird zum Beispiel ein Server unter einem anderen Port verwendet, so muss die Adresse inklusive Port angegeben werden.
 
-Wird ein vom Client und Standardport abweichender Port verwendet, z.B. weil der Server nicht priviligeiert unter Port 1443 läuft und der Client auf Port 3000, dann speichert der Client diesen Port für zukünftige Verbindungen in der sogenannten WebStorage-API des Browsers und versucht diesen Port als dritte Option bei weiteren Anmeldungen. Diese dritte Option ist nur möglich, wenn der benutzte Browser bereits eine erfolgreiche Verbindung aufbauen konnte.
+Wird ein vom Client und Standardport abweichender Port verwendet, zum Beispiel, weil der Server nicht priviligiert unter Port 1443 läuft und der Client auf Port 3000, dann speichert der Client diesen Port für zukünftige Verbindungen in der sogenannten WebStorage-API des Browsers und versucht diesen Port als dritte Option bei weiteren Anmeldungen. Diese dritte Option ist nur möglich, wenn der benutzte Browser bereits eine erfolgreiche Verbindung aufbauen konnte.
 
-Sollten mehrere Server parallel unter verschiedenen Ports laufen, wird der zuletzt benutzte Port gespeichert, kann aber bei jeder Neuanmeldung nachbearbeitet werden.
+Sollten mehrere Server parallel unter verschiedenen Ports laufen, wird der zuletzt benutzte Port gespeichert. Dieser kann aber bei jeder Neuanmeldung nachbearbeitet werden.
 
 ## 2 Verbinden
 Nach Eingabe der Serveradresse muss mit dem Server verbunden werden. Auch nach erfolgreicher Verbindung kann die Serveradresse unter 1 bearbeitet werden und trotz ausgegrautem Verbindungsknopf neu verbunden werden.
