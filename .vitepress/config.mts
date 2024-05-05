@@ -49,12 +49,14 @@ export default defineConfig(({ mode }) => {
                     ]
                 },
                 { text: 'Schüler', link: '/schueler/', collapsed: true, items: [
+                      { text: 'Individualdaten', link: '/schueler/individualdaten/' },
                       { text: 'Erziehungsberechtigte', link: '/schueler/erziehungsberechtigte/' },
                       { text: 'Ausbildungsbetriebe', link: '/schueler/ausbildungsbetriebe/' },
                       { text: 'Schulbesuch', link: '/schueler/schulbesuch/' },
-                      { text: 'Lernabschnittsdaten', link: '/schueler/lernabschnittsdaten/' },
+                      { text: 'Lernabschnitte', link: '/schueler/lernabschnittsdaten/' },
                       { text: 'Leistungsdaten', link: '/schueler/leistungsdaten/' },
-                      { text: 'Laufbahnplanung', link: '/schueler/laufbahnplanung/' },
+                      { text: 'Laufbahn', link: '/schueler/laufbahn/' },
+                      { text: 'Laufbahnplanung (SII)', link: '/schueler/laufbahnplanung/' },
                       { text: 'Stundenplan', link: '/schueler/stundenplan/' }
                     ]
                 },
