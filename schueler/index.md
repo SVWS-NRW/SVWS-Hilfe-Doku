@@ -24,7 +24,11 @@ Es lassen sich hier auch mehrere Status gleichzeigt anwählen.
   * Im Zuge der Aufnahme lassen sich Personen im Status *Warteliste* parken. Personen, die für das kommende Schuljahr aufgenommen wurden, erhalten den Status *Neuaufnahme*.
   * Schüler, die ihre Bildungslaufbahn an der Schule hinter sich haben, verfügen über den Status *Abgang* oder *Abschluss*. Letzteren Status erhalten Sie, wenn sie einem von ihrem vorgesehenen BIldungsgang erhaltenen Abschluss erlangt haben.
 
-  Im organen Oval lässt sich der Filter wieder aufheben. Dass die aktuelle Auswahl gefiltert wurde, wird über einen blauen Punkt hinter *Filter* kenntlich gemacht. Klicken Sie auf den durchgestrichenen Filter, um den Filter zurückzusetzen und wieder die ganze Schule angezeigt zu bekommen.
+* Weiterhin lassen sich auf **Jahrgänge** und/oder **Klassen** filtern.
+* Ebenso stehen die eingerichteten **Kurse** zur Auswahl.
+* Verfügt die Schule über mehrere **Gliederungen**, ist eine Filterung auf diese ebenfalls möglich.
+
+Im organen Oval lässt sich der Filter wieder aufheben. Dass die aktuelle Auswahl gefiltert wurde, wird über einen blauen Punkt hinter *Filter* kenntlich gemacht. Klicken Sie auf den durchgestrichenen Filter, um den Filter zurückzusetzen und wieder die ganze Schule angezeigt zu bekommen.
 
   Weiterhin bekommen Sie im Fuß der Schülerliste die Summe der Personen in der Auswahl angezeigt.
 
