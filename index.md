@@ -77,6 +77,18 @@ Das Fenster passt sich an die Breite des Browserfensters an.
 
 Die Schaltflächen zum Abmelden und Ändern der Ansicht finden sich je nach Broweserbreite oben rechts oder unten links. Weitehrin wird hier die Version des SVWS-Clients über die Client-Info angezeigt.
 
+### Statistikrelevante Felder
+
+Im SVWS-Client werden Felder, die für die **Amtliche Schulstatistik** relevant sind, farblich und mit einem kleinen Icon gekennzeichnet:
+
+![Kennzeichung der Statistikrelevanten Felder](./graphics/SVWS_hilfe-root_Statistikrelevanz.png "Die Farbe und das Diagramm-Icon weisen auf die Statistikrelevanz hin.")
+
+Hier im Beispiel wäre die *Straße* eines Lernenden nicht relevant für die Statistik, der *Wohnort* hingebgen schon. 
+
+Bitte füllen Sie diese Felder direkt so korrekt wie möglich aus und korrigieren Sie Einträge im Vorfeld der Statistik, um dann im Statistikzeitraum schon im Vorfeld für Entlastungen gesorgt zu haben.
+
+**Tipp:** Schauen Sie in die Schüsseltabellen und Eintragungshilfen von IT.NRW zur Statistik, oftmals lassen sich Fragestellungen durch eine klare Vorgabe direkt lösen.
+
 ### Plugins im Browser
 
 Im Browser installierte Plugins, etwa Screenreader, lassen sich somit auch mit dieser Webseite und im SVWS-Client verwenden.
