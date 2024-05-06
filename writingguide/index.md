@@ -12,7 +12,7 @@ Diese Seite ist nur temporär für die Erstellung dieser Dokumentation. Auf ihr 
 * Links im vertikalen Menü sind die **Apps**.
 * Das DataTable mit den eigentlichen Menüpunkten heißt **Auswahlliste**
 * Im rechten Datenbereich heißen die "Reiter" **Tabs**.
-* Unter den Tabs ist die **Aktionsliste**.
+* Unter den Tabs sind die **Untertabs**.
 
 ## Web-Dokumentationen
 
