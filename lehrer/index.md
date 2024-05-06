@@ -21,4 +21,10 @@ Diese Filter stehen zur Verfügung:
 
 Über den zweiten Schalter können Personen ein- und ausgeblendet werden, die als Personal erfasst sind, aber nicht für die Statistik heranzuziehen sind.
 
-Wurde eine Person angewählt, sind auf der rechten Seite die Details über diverse Reiter zu erfassen. 
+Ein blauer Punkt macht kenntlich, dass ein Filter aktiv ist:
+
+![Ein blauer Punkt dient als Filtermarkierung](./graphics/SVWS_lehrkraefte_filterIndikator.png "Klicken Sie auf den Filtertrichter, um die Filter zurück zu setzen.")
+
+Ein Klick auf den Filtertrichter setzt die Filter zurück. 
+
+Wurde eine Person angewählt, sind auf der rechten Seite die Details über diverse Reiter etwa zu Stammdaten, Einsätzen und so weiter zu erfassen.
