@@ -13,6 +13,7 @@ Diese Seite ist nur temporär für die Erstellung dieser Dokumentation. Auf ihr 
 * Das DataTable mit den eigentlichen Menüpunkten heißt **Auswahlliste**
 * Im rechten Datenbereich heißen die "Reiter" **Tabs**.
 * Unter den Tabs sind die **Untertabs**.
+* In manchen Bereichen steht noch eine **graue Schaltflächenleiste** (Bezeichnung Todo) zur Verfügung.
 
 ## Web-Dokumentationen
 
