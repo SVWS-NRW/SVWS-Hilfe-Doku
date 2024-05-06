@@ -65,7 +65,7 @@ export default defineConfig(({ mode }) => {
                     ]
                 },
                 { text: 'Lehrkräfte', link: '/lehrer/', collapsed: true, items: [
-                      { text: 'Personaldaten', link: '/lehrer/personaldaten/' },
+                      { text: 'Individualdaten', link: '/lehrer/individualdaten/' },
                       { text: 'Unterricht', link: '/lehrer/unterricht/' },
                       { text: 'Stundenplan', link: '/lehrer/stundenplan/' }
                     ]
