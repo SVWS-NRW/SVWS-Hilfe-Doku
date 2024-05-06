@@ -57,7 +57,11 @@ export default defineConfig(({ mode }) => {
                       { text: 'Erziehungsberechtigte', link: '/schueler/erziehungsberechtigte/' },
                       { text: 'Ausbildungsbetriebe', link: '/schueler/ausbildungsbetriebe/' },
                       { text: 'Schulbesuch', link: '/schueler/schulbesuch/' },
-                      { text: 'Lernabschnitte', link: '/schueler/lernabschnittsdaten/' },
+                      { text: 'Lernabschnitte', link: '/schueler/lernabschnitte/', collapsed: true, items: [
+                            { text: 'Allgemein', link: '/schueler/lernabschnitte/allgemein/' },
+                            { text: 'Leistungsdaten', link: '/schueler/lernabschnitte/leistungsdaten/' }
+                          ]
+                      },
                       { text: 'Leistungsdaten', link: '/schueler/leistungsdaten/' },
                       { text: 'Laufbahn', link: '/schueler/laufbahn/' },
                       { text: 'Laufbahnplanung (SII)', link: '/schueler/laufbahnplanung/' },
