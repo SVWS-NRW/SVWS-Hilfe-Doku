@@ -101,6 +101,8 @@ export default defineConfig(({ mode }) => {
                   { text: 'Änderungen ', link: '/informationen/änderungen/' },
                   { text: 'FAQ', link: '/informationen/faq' }
                     ]
+                },
+                { text: 'Writing Guidelines (Temp)', link: '/writingguide/'
                 }
               ]
           }
