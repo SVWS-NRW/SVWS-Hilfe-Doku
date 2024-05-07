@@ -15,6 +15,6 @@ Neben Kürzel, Vornamen und Nachname, einem eventuelle akademischen Grad und and
 
 ![Auswahlmenü mit Personaltypen.](./graphics/SVWS_lehrer_individualdaten_personaltyp.png "Wählen Sie den zur Person passenden Personaltyp aus.")
 
+Es lassen sich von "regularären" Lehrkräften bis zu "Sonstiges Personal" alle an der Schule beschäftigten Personengruppen erfassen.
 
-
-Lehrkräfte
+Wichtig ist bei Lehrkräften darauf zu achten, ob sie **statistikrelevant** sind.
