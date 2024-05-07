@@ -62,7 +62,6 @@ export default defineConfig(({ mode }) => {
                             { text: 'Leistungsdaten', link: '/schueler/lernabschnitte/leistungsdaten/' }
                           ]
                       },
-                      { text: 'Leistungsdaten', link: '/schueler/leistungsdaten/' },
                       { text: 'Laufbahn', link: '/schueler/laufbahn/' },
                       { text: 'Laufbahnplanung (SII)', link: '/schueler/laufbahnplanung/' },
                       { text: 'Stundenplan', link: '/schueler/stundenplan/' }
