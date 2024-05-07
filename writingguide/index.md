@@ -4,7 +4,7 @@ Diese Seite ist nur temporär für die Erstellung dieser Dokumentation. Auf ihr 
 
 ## Alles
 
-* Der Plural von "Schama" ist "Schemata".
+* Der Plural von "Schema" ist "Schemata".
 * Neutrale Bezeichnungen wo es möglich ist. "Schüler" bleiben so, wie sie sind.
 
 ## SVWS-Client
