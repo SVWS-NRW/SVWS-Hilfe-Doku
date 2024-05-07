@@ -26,7 +26,7 @@ export default defineConfig(({ mode }) => {
       { text: 'Dokumentation', link: 'https://doku.svws-nrw.de' }
     ],
   socialLinks: [
-      { icon: 'github', link: 'https://github.com/SVWS-NRW' }
+      { icon: 'github', link: 'https://github.com/SVWS-NRW/SVWS-Hilfe-Doku' }
     ],
       sidebar: {
         '/': [
