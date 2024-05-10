@@ -32,7 +32,8 @@ export default defineConfig(({ mode }) => {
         '/': [
           { text: '', items: [
                 { text: 'Anleitungen', link: '/anleitungen/', collapsed: true, items: [
-                    { text: 'Anmeldung', link: '/anleitungen/anmeldung/' }
+                    { text: 'Anmeldung', link: '/anleitungen/anmeldung/' },
+                    { text: 'JSON-Dateien', link: '/anleitungen/json-files/' }
                     ]
                 },
                 { text: 'Aktueller Benutzer', link: '/aktuellernutzer/', collapsed: true },
