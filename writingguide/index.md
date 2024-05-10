@@ -7,6 +7,7 @@ Diese Seite ist nur temporär für die Erstellung dieser Dokumentation. Auf ihr 
 * Der Plural von "Schema" ist "Schemata".
 * Neutrale Bezeichnungen wo es möglich ist. "Schüler" bleiben so, wie sie sind.
 * Der Schama ist der flauschige Schutzpatron aller Schemata.
+* Sollen Pfeile verwendet werden, sollte ein echter Pfeil ➜ genutzt werden, keine Bastelllösungen wie > oder ->. 
 
 ## SVWS-Client
 
