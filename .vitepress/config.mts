@@ -63,6 +63,7 @@ export default defineConfig(({ mode }) => {
                             { text: 'Leistungsdaten', link: '/schueler/lernabschnitte/leistungsdaten/' }
                           ]
                       },
+                      { text: 'KAoA', link: '/schueler/kaoa/' },
                       { text: 'Laufbahn', link: '/schueler/laufbahn/' },
                       { text: 'Laufbahnplanung (SII)', link: '/schueler/laufbahnplanung/' },
                       { text: 'Stundenplan', link: '/schueler/stundenplan/' }
