@@ -20,20 +20,8 @@ Weitere Informationen lassen sich in der **Beschreibung** hinterlegen.
 
 Hat man Räume über die Checkboxen angewählt, können diese **exportiert** oder über das Mülleimer-Icon 🗑 gelöscht werden.
 
-## Die json-Datei
-
-Die json-Datei enthält die Rauminformationen in folgender Weise:
+Bei der Datei handelt es sich um eine JSON-Datei.
 
 ``` json
 [{"id" : 2,"kuerzel" : "R2","beschreibung" : "Ein zweiter Raum","groesse" : 1},{"id" : 1,"kuerzel" : "R1","beschreibung" : "Ein erster Raum","groesse" : 2}]
 ```
-
-Der komlette Datensatz ist mit eckigen Klammern **[]** eingefasst. Jeder Eintrag ist in geschweifte Klammern **{}** eingefasst, folgende Räume werden durch ein Komma **,** getrennt.
-
-Innerhalb eines Eintrags finden sich Tags mit Daten. Nach einem Doppelpunkt **:** folgt der jeweilige Wert. Zahlen werden direkt geschrieben, Textfolgen in Anführungszeichen **""** eingefasst. Jeder Eintrag wird mit einem Komma getrennt.
-
-Manche Editoren erlauben das besser lesbare Anzeigen von json-Files:
-
-![Anzeige der json-Datei](./graphics/SVWS_kataloge_raeume_json.png "Anzeige einer json-Datei, hier in Notepad++ mit dem Plugin JSON Viewer.")
-
-Hier wurde *Notepad++* mit dem Plugin *JSON Viewer* verwendet.
