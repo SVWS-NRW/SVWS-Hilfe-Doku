@@ -90,4 +90,4 @@ Erfassen Sie freie Bemerkungen in dem sich bei Bedarf vergrößernden Feld.
 
 **Hinweise:**
 1. Beachten Sie geltendende Datenschutzbestimmungen.
-2. Überlegen Sie, ob sich die Inhalte nicht woanders stukturiert und nicht frei erfassen lassen, zum Beispiel über Vermerke. 
+2. Überlegen Sie, ob sich die Inhalte besser woanders stukturiert und nicht frei erfassen lassen, zum Beispiel über Vermerke. 
