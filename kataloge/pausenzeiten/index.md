@@ -23,5 +23,5 @@ Geben Sie die Pausenzeiten ein. Bestätigen Sie mit ```Pausenzeit hinzufügen```
 
 Über das Icon rechts daneben werden Pausenzeiten aus einer json-Datei **importiert**. Noch einmal daneben befindet sich das **+**, um Zeiten hinzuzufügen.
 
-Konsoltieren Sie die Anleitung für json-Dateien.
+Konsultieren Sie die Anleitung für json-Dateien.
 
