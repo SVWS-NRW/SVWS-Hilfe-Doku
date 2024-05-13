@@ -14,9 +14,7 @@ JSON-Dateien können beliebig verschachelt werden und enthalten folgende Typen v
 * **Objekte** werden durch geschweifte Klammern, **{** und **}**, eingeschlossen und enthalten eine durch Kommata getrennte, ungeordnete Liste von Eigenschaften.
     * Die **Eigenschaften** bestehen aus einem **Schlüssel**, der eine Zeichenkette ist und dem zugehörigen **Wert** eines beliebigen Datentyps.
 
-## Beispiele
-
-## Die json-Datei
+## Beispiel: Kataloge ➜ Räume
 
 Die json-Datei enthält zum Beispiel die Informationen zu Räumen in folgender Weise:
 
@@ -36,4 +34,4 @@ Manche Editoren erlauben das besser lesbare Anzeigen von json-Files:
 
 ![Anzeige der json-Datei](./graphics/SVWS_kataloge_raeume_json.png "Anzeige einer json-Datei, hier in Notepad++ mit dem Plugin JSON Viewer.")
 
-Hier wurde *Notepad++* mit dem Plugin *JSON Viewer* verwendet.
+Hier im Screenshot wurde das Programm *Notepad++* mit dem Plugin *JSON Viewer* verwendet.
