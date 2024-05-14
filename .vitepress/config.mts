@@ -40,7 +40,11 @@ export default defineConfig(({ mode }) => {
                 { text: 'Schule', link: '/schule/', collapsed: true, items: [
                       { text: 'Benutzer', link: '/schule/benutzer/' },
                       { text: 'Benutzergruppen', link: '/schule/benutzergruppen/' }
-                      { text: 'Datenaustausch', link: '/schule/datenaustausch/' }
+                      { text: 'Datenaustausch', link: '/schule/datenaustausch/', collapsed: true, items: [
+                            { text: 'Laufbahnberatung Oberstufe', link: '/schule/datenaustausch/lupo/' },
+                            { text: 'WebNotenManager', link: '/schule/datenaustausch/wenom/' }
+                         ]
+                      }
                     ]
                 },
                 { text: 'Kataloge', link: '/kataloge/', collapsed: true, items: [
