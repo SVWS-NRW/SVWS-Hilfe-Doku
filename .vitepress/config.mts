@@ -38,7 +38,8 @@ export default defineConfig(({ mode }) => {
                 },
                 { text: 'Aktueller Benutzer', link: '/aktuellernutzer/', collapsed: true },
                 { text: 'Schule', link: '/schule/', collapsed: true, items: [
-                      { text: 'Benutzerverwaltung', link: '/schule/benutzerverwaltung/' },
+                      { text: 'Benutzer', link: '/schule/benutzer/' },
+                      { text: 'Benutzergruppen', link: '/schule/benutzergruppen/' }
                       { text: 'Datenaustausch', link: '/schule/datenaustausch/' }
                     ]
                 },
