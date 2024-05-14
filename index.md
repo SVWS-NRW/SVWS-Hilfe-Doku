@@ -89,6 +89,14 @@ Bitte füllen Sie diese Felder direkt so korrekt wie möglich aus und korrigiere
 
 **Tipp:** Schauen Sie in die Schüsseltabellen und Eintragungshilfen von IT.NRW zur Statistik, oftmals lassen sich Fragestellungen durch eine klare Vorgabe direkt lösen.
 
+### Plausibilitätsfehler
+
+An manchen Stellen werden offensichtliche Plausbilitätsfehler durch ein rotes Feld markiert. 
+
+![Rotes Geburtsdatum zeigt einen Plausbilitätsfehler](./graphics/SVWS_hilfe-root_plausibilitätsfehlert.png "Dieses Geburtsdatum wirkt unwahrscheinlich und wird rot markiert.")
+
+Hier im Beispiel ist ein Geburtsjahr in einer Datenbank von 2022 nicht plausibel.
+
 ### Plugins im Browser
 
 Im Browser installierte Plugins, etwa Screenreader, lassen sich somit auch mit dieser Webseite und im SVWS-Client verwenden.
