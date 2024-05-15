@@ -1,5 +1,7 @@
 # Räume
 
+Die Katalogeinträge für *Räume*, *Pausenzeiten*, *Zeitraster*, *Klassen* und *Aufsichtsbereiche* werden bei der Stundenplanerstellung zusammengeführt.
+
 ## Räume anlegen und verwalten
 
 Über diesen Katalog lassen sich *Räume* erfassen, die dann über den Stundenplan verplant werden können.
