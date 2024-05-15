@@ -8,7 +8,9 @@
 
 Erzeugen Sie über das **+** neue Räume, im Screenshot wird es durch den grünen Pfeil gezeigt.
 
-In jedem Raum können ein **Kürzel** und eine relative **Größe** für einen Raum vergeben werden.
+In jedem Raum können ein **Kürzel** und eine **Größe** für einen Raum vergeben werden.
+
+Bei der **Größe** ist die maximale Personenzahl anzugeben, die in diesem Raum verplant werden kann. Kleinere Besprechungsräume könnten mit einer Größe von *12* hinterlegt sein, Klassenräume könnten beispielsweise eine Größe von *34* haben, Turnhallen *90* und eine Aula *300*.  
 
 Weitere Informationen lassen sich in der **Beschreibung** hinterlegen.
 
