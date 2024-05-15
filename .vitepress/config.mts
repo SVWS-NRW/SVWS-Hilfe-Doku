@@ -32,8 +32,8 @@ export default defineConfig(({ mode }) => {
         '/': [
           { text: '', items: [
                 { text: 'Anleitungen', link: '/anleitungen/', collapsed: true, items: [
-                    { text: 'Anmeldung', link: '/anleitungen/anmeldung/' },
-                    { text: 'JSON-Dateien', link: '/anleitungen/json_files/' }
+                      { text: 'Anmeldung', link: '/anleitungen/anmeldung/' },
+                      { text: 'JSON-Dateien', link: '/anleitungen/json_files/' }
                     ]
                 },
                 { text: 'Aktueller Benutzer', link: '/aktuellernutzer/', collapsed: true },
@@ -55,7 +55,7 @@ export default defineConfig(({ mode }) => {
                       { text: 'Pausenzeiten', link: '/kataloge/pausenzeiten/' },
                       { text: 'Räume', link: '/kataloge/raeume/' },
                       { text: 'Religionen', link: '/kataloge/religionen/' },
-                      { text: 'Zeitraster', link: '/kataloge/zeitraster/' },
+                      { text: 'Zeitraster', link: '/kataloge/zeitraster/' }
                     ]
                 },
                 { text: 'Schüler', link: '/schueler/', collapsed: true, items: [
@@ -108,12 +108,11 @@ export default defineConfig(({ mode }) => {
                 { text: 'Adressbücher', link: '/adressbuecher/' },
                 { text: 'Kalender', link: '/kalender/' },
                 { text: 'Informationen', link: '/informationen/', collapsed: true, items: [
-                  { text: 'Änderungen ', link: '/informationen/änderungen/' },
-                  { text: 'FAQ', link: '/informationen/faq' }
+                    { text: 'Änderungen ', link: '/informationen/änderungen/' },
+                    { text: 'FAQ', link: '/informationen/faq' }
                     ]
                 },
-                { text: 'Writing Guidelines (Temp)', link: '/writingguide/'
-                }
+                { text: 'Writing Guidelines (Temp)', link: '/writingguide/'}
               ]
           }
         ]
