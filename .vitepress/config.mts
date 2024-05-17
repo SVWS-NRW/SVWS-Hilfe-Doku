@@ -36,8 +36,9 @@ export default defineConfig(({ mode }) => {
                       { text: 'JSON-Dateien', link: '/anleitungen/json_files/' }
                     ]
                 },
-                { text: 'Aktueller Benutzer', link: '/aktuellernutzer/', collapsed: true },
-                { text: 'Schule', link: '/schule/', collapsed: true, items: [
+                { text: '== Apps: =='},
+                { text: ' Aktueller Benutzer', link: '/aktuellernutzer/', collapsed: true },
+                { text: ' Schule', link: '/schule/', collapsed: true, items: [
                       { text: 'Benutzer', link: '/schule/benutzer/' },
                       { text: 'Benutzergruppen', link: '/schule/benutzergruppen/' },
                       { text: 'Datenaustausch', link: '/schule/datenaustausch/', collapsed: true, items: [
