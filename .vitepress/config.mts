@@ -36,6 +36,11 @@ export default defineConfig(({ mode }) => {
                       { text: 'JSON-Dateien', link: '/anleitungen/json_files/' }
                     ]
                 },
+                { text: 'Schulformspezifisch', link: '/anleitungen_schulform/', collapsed: true, items: [
+                      { text: 'Oberstufe', link: '/anleitungen_schulform//anleitungen_gost/' },
+                      { text: 'Grundschule', link: '/anleitungen_schulform/anleitungen_grundschule/' }
+                    ]
+                },
                 { text: '== Apps: =='},
                 { text: ' Aktueller Benutzer', link: '/aktuellernutzer/', collapsed: true },
                 { text: ' Schule', link: '/schule/', collapsed: true, items: [
