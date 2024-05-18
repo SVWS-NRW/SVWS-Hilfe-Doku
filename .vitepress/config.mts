@@ -31,7 +31,8 @@ export default defineConfig(({ mode }) => {
       sidebar: {
         '/': [
           { text: '', items: [
-                { text: 'Anleitungen', link: '/anleitungen/', collapsed: true, items: [
+                { text: '━━━ Anleitungen: ━━━'},
+                { text: 'Allgemeine Anleitungen', link: '/anleitungen/', collapsed: true, items: [
                       { text: 'Anmeldung', link: '/anleitungen/anmeldung/' },
                       { text: 'JSON-Dateien', link: '/anleitungen/json_files/' }
                     ]
@@ -41,9 +42,9 @@ export default defineConfig(({ mode }) => {
                       { text: 'Grundschule', link: '/anleitungen_schulform/anleitungen_grundschule/' }
                     ]
                 },
-                { text: '== Apps: =='},
-                { text: ' Aktueller Benutzer', link: '/aktuellernutzer/', collapsed: true },
-                { text: ' Schule', link: '/schule/', collapsed: true, items: [
+                { text: '━━━ Apps: ━━━'},
+                { text: 'Aktueller Benutzer', link: '/aktuellernutzer/', collapsed: true },
+                { text: 'Schule', link: '/schule/', collapsed: true, items: [
                       { text: 'Benutzer', link: '/schule/benutzer/' },
                       { text: 'Benutzergruppen', link: '/schule/benutzergruppen/' },
                       { text: 'Datenaustausch', link: '/schule/datenaustausch/', collapsed: true, items: [
@@ -107,6 +108,8 @@ export default defineConfig(({ mode }) => {
                       { text: 'Hilfe', link: '/statistik/hilfe' }
                     ]
                 },
+                { text: 'Stundenplan', link: '/stundenplan/', },
+                { text: '━━━ Weiteres: ━━━'},
                 { text: 'Administration', link: '/administration/', collapsed: true, items: [
                       { text: 'Admin Client', link: '/administration/adminclient/' }
                     ]
