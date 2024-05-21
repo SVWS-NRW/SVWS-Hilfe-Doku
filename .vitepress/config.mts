@@ -42,6 +42,7 @@ export default defineConfig(({ mode }) => {
                       { text: 'Grundschule', link: '/anleitungen_schulform/anleitungen_grundschule/' }
                     ]
                 },
+                { text: 'Zeugnisvorbereitung', link: '/anleitungen_zeugnisse/' },
                 { text: '━━━ Apps ━━━'},
                 { text: 'Aktueller Benutzer', link: '/aktuellernutzer/', collapsed: true },
                 { text: 'Schule', link: '/schule/', collapsed: true, items: [
