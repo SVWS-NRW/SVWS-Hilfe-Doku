@@ -5,7 +5,7 @@ Diese Seite ist nur temporär für die Erstellung dieser Dokumentation. Auf ihr 
 ## Alles
 
 * Der Plural von "Schema" ist "Schemata".
-* Neutrale Bezeichnungen wo es möglich ist. "Schüler" bleiben so, wie sie sind.
+* Neutrale Bezeichnungen, wo es möglich ist. "Schüler" bleiben so, wie sie sind.
 * Der Schama ist der flauschige Schutzpatron aller Schemata.
 * Sollen Pfeile verwendet werden, sollte ein echter Pfeil ➜ genutzt werden, keine Bastelllösungen wie > oder ->.
 * Die Laufbahnplanung in der Oberstufe heißt "Laufbahnplanung Oberstufe". 
@@ -31,3 +31,7 @@ Tatsächliche Anleitungen, Tutorials und Prozessbeschreibungen (ZP10) und vor al
 * Ältere Versionen von Grafiken und Schaubildern bleiben in der Regel in /graphics/ erhalten.
 * Alle Grafiken sollten direkt mit sinnvollen "Alternativtexten" und Mausover-Texten versehen werden.
 
+## Technische Umsetzung
+Die Dokumentation wird aus vielen [Markdown](https://de.wikipedia.org/wiki/Markdown)-Dokumenten erzeugt, die ähnlich wie Wikipedia ein spezielles Formatierungsformat verwendet. Diese Dateien werden mit Hilfe von [vitepress](https://vitepress.dev/) und der Konfigurationsdatei zu einer HTML-Seite gebaut, die dann mit dem Browser angezeigt werden kann.
+
+Die Sammlung dieser Markdown-Dokumente werden in einem [Git](https://git-scm.com/)-Repository auf [GitHub](https://github.com) vorgehalten und können beliebig eingesehen, bearbeitet und verändert werden. Eine ausführliche Anleitung zu Git findet sich [hier](https://docs.github.com/de/get-started/using-git/about-git).
