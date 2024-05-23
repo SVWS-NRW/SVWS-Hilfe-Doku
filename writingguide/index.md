@@ -30,8 +30,24 @@ Tatsächliche Anleitungen, Tutorials und Prozessbeschreibungen (ZP10) und vor al
 * Schaubilder/Schemas sind GraphML-Dateien und werden miT *yEd* erstellt. Die GraphML-Dateien werden ebenfalls in /graphics/ abgelegt.
 * Ältere Versionen von Grafiken und Schaubildern bleiben in der Regel in /graphics/ erhalten.
 * Alle Grafiken sollten direkt mit sinnvollen "Alternativtexten" und Mausover-Texten versehen werden.
+* In **Anleitungen** sollte wirklich *jeder* Schritt erwähnt und mit einem Screenshot versehen werden. Wir schreiben für nicht-technisch versierte Nutzer.
 
 ## Technische Umsetzung
 Die Dokumentation wird aus vielen [Markdown](https://de.wikipedia.org/wiki/Markdown)-Dokumenten erzeugt, die ähnlich wie Wikipedia ein spezielles Formatierungsformat verwendet. Diese Dateien werden mit Hilfe von [vitepress](https://vitepress.dev/) und der Konfigurationsdatei zu einer HTML-Seite gebaut, die dann mit dem Browser angezeigt werden kann.
 
 Die Sammlung dieser Markdown-Dokumente werden in einem [Git](https://git-scm.com/)-Repository auf [GitHub](https://github.com) vorgehalten und können beliebig eingesehen, bearbeitet und verändert werden. Eine ausführliche Anleitung zu Git findet sich [hier](https://docs.github.com/de/get-started/using-git/about-git).
+
+## Hervorherhebungen
+
+Hervorhebungen in **fett** und *kursiv* sollten spärlich eingesetzt werden.
+
+Bislang werden *real vorhandende Funktionen* in **fett** markiert. Ebenso der Hauptgegenstand des Artikels (einmalig). Also etwa **Stunde löschen** oder **Nutzer hinzufügen**. Es sollten nur diese nutzbaren Funktionen hervorgehoben werden.
+
+Andere Hervorhebungen können in *kursiv* gesetzt werden (siehe oben). Ebenso werden Feldinhalte in kursiv gesetzt. Also würde man etwa schreiben: "Tragen Sie in die **Kursart** den Wert *PUK* für *Pflichtunterricht im Klassenverband* ein.
+
+Bei **Anleitungen** empfhielt es sich, die Funktionen, die im Zuge der Anleitung tatsächlich bedient zu werden, als ```Code```zu markieren. Also wäre alles, was tatsächlich anzuklicken ist, als Code hervorgehoben. Alternativen wären dann fett. Hier würde man schreiben: "Klicken Sie nun auf ```Weiter```, mit **Abbrechen** kehren Sie ohne Änderungen vorzunehmen zum vorherigen Fenster zurück."
+
+Wichtiger als das Einhalten eines globalen Schemas ist aber eher der spärliche Einsatz von Hervorhebungen und Konsistenz innerhalb des Artikels oder der thematischen Artieklreihe.  
+
+
+
