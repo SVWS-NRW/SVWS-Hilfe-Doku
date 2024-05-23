@@ -39,7 +39,7 @@ export default defineConfig(({ mode }) => {
                 },
                 { text: 'Schulformspezifisch', link: '/anleitungen_schulform/', collapsed: true, items: [
                       { text: 'Oberstufe', link: '/anleitungen_schulform//anleitungen_gost/' },
-                      { text: 'Grundschule', link: '/anleitungen_schulform/anleitungen_grundschule/' }
+                      { text: 'Grundschule', link: '/anleitungen_schulform/anleitungen_gs/' }
                     ]
                 },
                 { text: 'Zeugnisvorbereitung', link: '/anleitungen_zeugnisse/' },
