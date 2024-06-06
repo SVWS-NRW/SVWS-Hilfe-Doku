@@ -81,13 +81,3 @@ Der **Status** gibt an, welche Rolle die Person im Schulbetrieb spielt.
 * Erreichen Schüler den Abschluss Ihres Bildungsganges oder Ihrer Prüfungsordnung, beenden Sie die Schulkarriere mit dem Status **Abschluss**.
 * Geht ein Schüler ohne den vorgesehenen Abschluss zu erreichen, etwa mitten im Schuljahr oder am Ende des Schuljahres ohne diesen Abschluss oder verlässt aus irgendeinem anderen Grund die Schule, wird er mit dem Status **Abgang** versehen.
 * Unter dem Status **Ehemalige** können die Rumpfdaten von Schülern erfasst werden, für die geltende Löschfristen abgelaufen sind. Über diesen Status können Kontaktdaten vorgehalten werden, um zum Beispiel Ehemaligentreffen zu organisieren.
-
-## Bemerkungen
-
-![Das Feld für freie Bemerkungen](./graphics/SVWS_schueler_individualdaten_Bemerkungen.png "In diesem Bereich lassen sich freie Bemerkungen aufzunehmen. Das Feld wird bei Bedarf um Zeilen erweitert.")
-
-Erfassen Sie freie Bemerkungen in dem sich bei Bedarf vergrößernden Feld.
-
-**Hinweise:**
-1. Beachten Sie geltendende Datenschutzbestimmungen.
-2. Überlegen Sie, ob sich die Inhalte besser woanders stukturiert und nicht frei erfassen lassen, zum Beispiel über Vermerke. 
