@@ -36,7 +36,7 @@ Die Konfessionen werden in ihrem Katalog statistikonform aufgenommen.
 
 Haken Sie über **Konfessione aufs Zeugnis** an, ob die Konfession über die Zeugnisformulare ausgebene werden soll oder nicht.
 
-Ist ein Schüler über die Konfession automatisch einem Religionunsunterricht zugeordnet oder diesen eben nicht, werden die **bnmeldungen vom Religionsunterricht** und **Wiederanmeldungen** über diese Datumsfelder erfasst.
+Ist ein Schüler über die Konfession automatisch einem Religionunsunterricht zugeordnet oder diesen eben nicht, werden die **Abnmeldungen vom Religionsunterricht** und **Wiederanmeldungen** über diese Datumsfelder erfasst.
 
 Die Felder sind statstikrelevant, liegen aber keine Meldungen vor, sind auch Leereinsträge zulässig.
 
@@ -70,9 +70,12 @@ Setzen Sie die Haken bei **Masern Impfnachweis** und **BAFöG** nach Bedarf.
 
 Über **Keine Auskunft an Dritte** lässt sich ein Datensatz so markieren, dass besondere Vorsicht bei Auskunftsanfragen walten zu lassen ist.
 
-![Die unterschiedlichen Status, die für Schüler vergeben werden können.](./graphics/SVWS_schueler_individualdaten_Statusdaten_Dropdown.png "Die Status der Schüler, die vergeben werden können. Die aktiven Schüler haben den Status Aktiv oder Extern.")
+![Die große Warnung wird gezeigt, wenn der Haken bei "Keine Auskunft an Dritte" gesetzt wurde](./graphics/SVWS_schueler_individualdaten_KeineAuskunftAnDritte.png "Bei gesetztem Haken erscheint eine große Warnung.")
 
 Der **Status** gibt an, welche Rolle die Person im Schulbetrieb spielt.
+
+![Die unterschiedlichen Status, die für Schüler vergeben werden können.](./graphics/SVWS_schueler_individualdaten_Statusdaten_Dropdown.png "Die Status der Schüler, die vergeben werden können. Die aktiven Schüler haben den Status Aktiv oder Extern.")
+
 * Schüler in der **Neuafaufnahme** sind an der Schule aufgenommen, aber noch nicht aktiv einer Klasse zugeordnet. In der Regel finden sich hier die Schüler, die aufgenommen werden, aber erst im kommenden Schuljahr dem Regelbetrieb zugeordnet werden.
 * Haben Sie Schüler, die noch nicht aufgenommen sind, aber für die dies eventuell noch geschehen könnte, können Sie die grundlegenden Daten, etwa zum Kontaktieren erfassen. Weisen Sie diesen Schülern den Status **Warteliste** zu.
 * Die aktuell beschulten Schüler sind **Aktiv**. 
