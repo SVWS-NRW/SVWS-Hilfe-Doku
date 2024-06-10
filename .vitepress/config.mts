@@ -43,7 +43,7 @@ export default defineConfig(({ mode }) => {
                     ]
                 },
                 { text: 'Zeugnisvorbereitung', link: '/anleitungen_zeugnisse/' },
-                { text: '━━━ Apps ━━━'},
+                { text: '━━━ Apps ━━━', link: '/apps/' },
                 { text: 'Aktueller Benutzer', link: '/aktuellernutzer/', collapsed: true },
                 { text: 'Schule', link: '/schule/', collapsed: true, items: [
                       { text: 'Benutzer', link: '/schule/benutzer/' },
