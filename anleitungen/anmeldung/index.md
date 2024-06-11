@@ -2,7 +2,7 @@
 
 Bei erfolgreicher Verbindung zum SVWS-Client wird dieses Anmeldefenster angezeigt:
 
-![Login-Bildschirm](graphics/login.png)
+![Login-Bildschirm](graphics/login_075.png)
 
 ## 1 Die Serveradresse
 
