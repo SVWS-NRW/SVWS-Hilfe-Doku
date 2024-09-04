@@ -7,7 +7,11 @@ Die Voraussetzung hierfür sind, dass unter den jeweiligen Katalogen schon die n
 * Es müssen **Pausenzeiten** und entsprechende
 * **Aufsichtsbereiche** vorliegen.
 * Auch müssen **Räume** mit einer Bezeichnung und passenden maximalen Personenzahlen angelegt sein.
-* Bezüglich der Schülerverwaltung sind zuvor **Jahrgänge** und **Klassen** zu definieren.
+
+Bezüglich der Schülerverwaltung sind zuvor
+* **Jahrgänge** und
+* **Klassen** zu definieren.
+* Sollen **Kurse** verwendet werden, sind diese ebenfalls anzulegen.
 
 Ganz links in der Auswahlliste finden sich unterschiedliche Stundenpläne in der Übersicht.
 
