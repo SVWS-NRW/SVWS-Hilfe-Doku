@@ -1,5 +1,15 @@
 # Stundenplanerstellung
 
+## Grundlgende Funktion des Stundenplans
+
+Im SVWS-Server lassen sich alle Daten hinterlegen, die für einen Stundenplan benötigt werden und auch der Stundenplan selbst kann über den SVWS-Client abgerufen werden.
+
+Der SVWS-Client selbst ist kein Stundenplanprogramm, daher ist kein Erstellungsalgorithmus hinterlegt. Ebenso wird die Unterrichtsverteilung, auf welcher ein Stundenplan erzeugt wird, nicht über den SVWS-Client erstellt.
+
+Stundenpläne lassen sich manuell selbst erstellen und für einfachere Schulformen ist dies auch ein gangbarer Weg, zusammen mit den Leistungsdaten Stunden und Aufsichten zu planen.
+
+## Vorherige Einstellungen
+
 Mit dem SVWS-Client lassen sich für die Schule **Stundenpläne** erstellen.
 
 ![Die Stundenpläne werden verwaltet und ihre Daten lassen sich über die Tabs einstelle](./graphics/SVWS_stundenplan_grunddaten.png "Wählen Sie in der Auswahlliste den Stundenplan oder legen Sie einen neuen an. Dann stellen Sie die Grundaten ein und navigieren über die Tabs zu den weiteren Einstellungen.")
@@ -28,3 +38,13 @@ Ebenso wählen Sie bei Bedarf ein **Wochentypmodell** (siehe ersten Screenshot).
 * Sollten noch mehr Wochen wechseln, lässt sich mit *weitere* eine Wahl treffen, bei der zusätzlich ein Feld *Wochentypmodell* eingeblendet wird, bei dem sich eine ganze Zahl für den Wochentyp anwählen lässt.
 
 Wird ein Wechselwochenmodell gewählt, lassen sich auch die **Kalenderwochen** whählen, jeweils mit der *KW* und ihrem Datumsbereich und welcher *Wochentyp* - also A, B, C usw. - für diese KW gelten soll. Somit sind auch unregelmäßige Muster einstellbar.
+
+### Zusammenhang der Kataloge mit dem Stundenplan
+
+Es lassen sich im SVWS-Client mehrere Stundenpläne erzeugen, die jeweils ihren Geltungsbereich haben.
+
+Dies hat zur Folge, dass Änderungen an den Katalogen nicht direkt in existierenden Stundenplänen auftauchen können.
+
+Beispiel: Das Angebot der Räume der Schule ändert sich etwa durch Umbenennung oder Umbauten, so dass Räume dazukommen oder wegfallen. Hiermit würde eine Änderung im Katalog für das kommende Schuljahr alte oder aktuelle Stundenpläne falsche Daten darstellen lassen oder gar verplante Räume entfernen.
+
+Daher verfügt jeder definierte Stundenplan eigene "Stundenplan-Kataloge", die bei der Erstellung des Stundenplans aus den echten Katalogen übernommen werden und dann in Zukunft immer einzeln und bewusst anzupassen sind.
