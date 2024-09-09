@@ -1,5 +1,7 @@
 # Stundenplanerstellung
 
+![Beispielstundenplan für einen Schüler der EF](./graphics/SVWS_stundenplan_beispiel.png "Ein Beispielstundenplan in der A-Woche für die EF.")
+
 ## Grundlgende Funktion des Stundenplans
 
 Im SVWS-Server lassen sich alle Daten hinterlegen, die für einen Stundenplan benötigt werden und auch der Stundenplan selbst kann über den SVWS-Client abgerufen werden.
