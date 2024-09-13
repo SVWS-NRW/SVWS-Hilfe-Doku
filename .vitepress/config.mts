@@ -31,7 +31,7 @@ export default defineConfig(({ mode }) => {
       sidebar: {
         '/': [
           { text: '', items: [
-                { text: '━━━ Anleitungen ━━━'},
+                { text: '━━━ Anleitungen ━━━', link: '/anleitungen/' },
                 { text: 'Allgemeine Anleitungen', link: '/anleitungen/', collapsed: true, items: [
                       { text: 'Anmeldung', link: '/anleitungen/anmeldung/' },
                       { text: 'Stundenpläne', link: '/anleitungen/stundenplan/' },
@@ -111,7 +111,7 @@ export default defineConfig(({ mode }) => {
                     ]
                 },
                 { text: 'Stundenplan', link: '/stundenplan/', },
-                { text: '━━━ Weiteres ━━━'},
+                { text: '━━━ Weiteres ━━━', link: '/weiteres/' },
                 { text: 'Administration', link: '/administration/', collapsed: true, items: [
                       { text: 'Admin Client', link: '/administration/adminclient/' }
                     ]
