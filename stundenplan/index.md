@@ -53,12 +53,43 @@ Ebenso wählen Sie bei Bedarf ein **Wochentypmodell** (siehe ersten Screenshot).
 
 Wird ein Wechselwochenmodell gewählt, lassen sich auch die **Kalenderwochen** whählen, jeweils mit der *KW* und ihrem Datumsbereich und welcher *Wochentyp* - also A, B, C usw. - für diese KW gelten soll. Somit sind auch unregelmäßige Muster einstellbar.
 
+## Erstellen und Importieren eines Stundenplans
 
+Für ein Halbjahr können mehrer Stundenpläne für unterschiedliche Geltungsbereiche angelegt werden.
 
-## Erstellen des Stundenplans
+Eine Konsequenz hieraus ist, dass auch Stundenpläne zur Planung für die Zukunft erstellt und angelegt werden können.
+
+![Abschnittswahl für Stundenpläne](./graphics/SVWS_stundenplan_abschnittswahl.png "Wählen Sie den Abschnitt, in dem Sie Stundenpläne verwalten möchten.")
+
+Der aktuell gewählte Abschnitt ist mit einem Haken ✓ markiert, der aktuell Lernabschnitt der Schule ist **fett** hinterlegt.
+
 
 Der Stundenplan kann nun in einfachen Fällen manuell erstellt werden oder über ein Stundenplanprogramm berechnet werden.
 
 Sind die grundsätzlichen Einstellungen vorhanden, wir ein kompletter Stundenplan über **Datenaustausch Untis** eingelesen und einem definierten Stundenplan zugewiesen.
 
-TODO here!
+![Import der Raumdatei GPU0005.txt aus Units](./graphics/SVWS_stundenplan_raumImport.png "Importieren Sie die Raumliste aus Untis in den Katalog.")
+
+Die verwendete Datei ist eine .csv-Datei mit einer UTF-8-Enocidierung ohne BOM. Trennzeichen ist das Semikolon **;** und Textinhalte werden in Anführungszeichen **"** eingeschlossen.
+
+Weiterhin lässt sich auch ein kompletter Stundenplan aus Units importieren.
+
+Das Untis-Format wurde leicht verändert, so dass auch ein *wochentyp* angegeben werden kann: *null* ist hier der Standard mit nur einer Woche, *1* und *2* werden zu A- und B-Wochen.
+
+![Stundenplanimport über die GPU0001.txt aus Untis](./graphics/SVWS_stundenplan_StundenplanImport.png "Importieren Sie einen kompletten Stundenplan im Format von Untis.")
+
+Es gelten die gleichen Kriterien zum Import wie oben genannt. 
+
+Wählen Sie zuerst einen **Lernabschnitt**, dann den Bereich, ab dem der Stundenplan **gültig** sein soll und schließlich eine **Bezeichnung**.
+
+Ist der Haken bei der Einstellung gesetzt, **Fehler zu ignorieren**, werden keine Fehlermeldungen ausgeben, sondern nur Logeinträge erzeugt. Weiterhin werden Unterrichte ignoriert, bei denen die Kürzel für Klassen, Kurse und Lehrkräfte nicht in der SVWS-Datenbank vorhanden sind.
+
+Nach der Wahl einer Datei und einem Klick auf ```Stundenplan importieren``` wird der Stundenplan mit der gewählten Bezeichnung im Lernabschnitt angelegt.
+
+
+
+
+
+
+
+
