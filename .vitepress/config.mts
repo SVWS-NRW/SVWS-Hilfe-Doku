@@ -34,6 +34,7 @@ export default defineConfig(({ mode }) => {
                 { text: '━━━ Anleitungen ━━━'},
                 { text: 'Allgemeine Anleitungen', link: '/anleitungen/', collapsed: true, items: [
                       { text: 'Anmeldung', link: '/anleitungen/anmeldung/' },
+                      { text: 'Stundenpläne', link: '/anleitungen/stundenplan/' },
                       { text: 'JSON-Dateien', link: '/anleitungen/json_files/' }
                     ]
                 },
