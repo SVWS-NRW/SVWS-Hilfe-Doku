@@ -61,6 +61,14 @@ Ebenso wählen Sie bei Bedarf ein **Wochentypmodell** (siehe ersten Screenshot).
 
 Wird ein Wechselwochenmodell gewählt, lassen sich auch die **Kalenderwochen** whählen, jeweils mit der *KW* und ihrem Datumsbereich und welcher *Wochentyp* - also A, B, C usw. - für diese KW gelten soll. Somit sind auch unregelmäßige Muster einstellbar.
 
+## Übersicht in Unterrichte
+
+**TODO** Wie man die Übersicht nutzt und filtert
+
+**TODO**
+
+**TODO**
+
 ## Erstellen und Importieren eines Stundenplans
 
 Für ein Halbjahr können mehrer Stundenpläne für unterschiedliche Geltungsbereiche angelegt werden.
@@ -95,10 +103,11 @@ Nach der Wahl einer Datei und einem Klick auf ```Stundenplan importieren``` wird
 
 ## Stundenplan manuell erstellen und anpassen
 
-Um einen Stundenplan komplett neu zu erstellen oder einen existierenden anzupassen, 
+Um einen Stundenplan komplett neu zu erstellen oder einen existierenden anzupassen, werden Unterrichte - die über eine Zuordnung von Klassen- und Kursunterrichten in den Leistungsdaten stammen - über Drag & Drop in das in die Rasterübersicht unter **Klassen** gezogen. 
 
+Auch wenn die Gymnasiale Oberstufe keine *Klasse*, sondern ein *Jahrgang* ist, ist sie hier unter dem Tab Klassen zu verwalten.
 
-
+Wurde ein Wochentyp mit Wechselwochen eingerichtet, werden hier auch die Unterrichte in die passenden Wochen-Plätze gezogen.
 
 
 
