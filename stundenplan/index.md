@@ -2,6 +2,12 @@
 
 ![Beispielstundenplan für einen Schüler der EF](./graphics/SVWS_stundenplan_beispiel.png "Ein Beispielstundenplan in der A-Woche für die EF.")
 
+## Stundenpläne abrufen und nutzen
+
+Fertige Stundenpläne können über die **App Stundenpläne** abgerufen werden. Etwa kann man sich in den **Tabs** in dieser App die *Pausen*, zu den *Zeitrastern* oder *Klassen* zugeordneten Unterichte abrufen.
+
+Weiterhin sind derzeit aktive Stundenpläne auch über die Apps zu *Schülern*, *Lehrkräften* oder *Klassen* zu den jeweils gewählten Einträgen abrufbar. 
+
 ## Grundlgende Funktion des Stundenplans
 
 Im SVWS-Server lassen sich alle Daten hinterlegen, die für einen Stundenplan benötigt werden und auch der Stundenplan selbst kann über den SVWS-Client abgerufen werden.
@@ -37,6 +43,8 @@ Bezüglich der Schülerverwaltung sind zuvor
 * **Klassen** zu definieren.
 * Sollen **Kurse** verwendet werden, sind diese ebenfalls anzulegen.
 
+Weiterhin sind in der Schule **Unterrichte** zu planen. Dieses geschieht über das Zuweisen von Klassen- oder Kursunterrichte in den Leistungsdaten der Schüler.
+
 Ganz links in der Auswahlliste finden sich unterschiedliche Stundenpläne in der Übersicht.
 
 Sofern andere Programme genutzt werden, um etwa *Räume* zu verwalten, kann die Liste hier in einem Textformat als Katalog importiert werden. Zum Aufbau dieser Importdatei findet sich mehr beim *Katalog zu den Räumen*. 
@@ -63,7 +71,6 @@ Eine Konsequenz hieraus ist, dass auch Stundenpläne zur Planung für die Zukunf
 
 Der aktuell gewählte Abschnitt ist mit einem Haken ✓ markiert, der aktuell Lernabschnitt der Schule ist **fett** hinterlegt.
 
-
 Der Stundenplan kann nun in einfachen Fällen manuell erstellt werden oder über ein Stundenplanprogramm berechnet werden.
 
 Sind die grundsätzlichen Einstellungen vorhanden, wir ein kompletter Stundenplan über **Datenaustausch Untis** eingelesen und einem definierten Stundenplan zugewiesen.
@@ -86,7 +93,9 @@ Ist der Haken bei der Einstellung gesetzt, **Fehler zu ignorieren**, werden kein
 
 Nach der Wahl einer Datei und einem Klick auf ```Stundenplan importieren``` wird der Stundenplan mit der gewählten Bezeichnung im Lernabschnitt angelegt.
 
+## Stundenplan manuell erstellen und anpassen
 
+Um einen Stundenplan komplett neu zu erstellen oder einen existierenden anzupassen, 
 
 
 
