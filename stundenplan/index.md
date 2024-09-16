@@ -109,5 +109,7 @@ Auch wenn die Gymnasiale Oberstufe keine *Klasse*, sondern ein *Jahrgang* ist, i
 
 Wurde ein Wochentyp mit Wechselwochen eingerichtet, werden hier auch die Unterrichte in die passenden Wochen-Plätze gezogen.
 
+Lesen Sie für die detallierte Erklärung bitte **Anleitungen ➜ Stundenpläne**. 
+
 
 
