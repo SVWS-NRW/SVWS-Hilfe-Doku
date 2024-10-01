@@ -89,3 +89,9 @@ Das folgende Beispiel dürfte in der Praxis unnötig komplex werden, dient hier 
 Die 3. Stunde am Montag und Dienstag sind nun in A-B-Wochen am Montag mit Englisch in der A-Woche und Physik in der B-Woche und am Dienstag mit Deutsch in der A-Woche und Englisch in der B-Woche verplant.
 
 Links in der Auswahliste ist zu sehen, dass bei Physik noch eine halbe Stunde fehlt. Bei Mathematik fehlt eine Stunde, weiterhin sind Praktische Philosphie, Biologie und Informatik noch gar nicht verplant. Der Vollständigkeit halber findet sich noch Deutsch, dem ebenfalls noch eine halbe Stunde fehlt.
+
+## Anzeigen der Aufsichten
+
+Wird der Mauszeiger über eine **Pausenzeit** bewegt, werden in dieser Ansicht die eingelanten Aufsichten angezeigt. Diese sind hier nicht zu bearbeiten.
+
+![Aufsichten für Pausen anzeigen](./graphics/SVWS_stundenplan_aufsichtenAnzeigen.png "Lassen Sie sich die geplanten Aufsichten für die Pausen anzeigen.")
