@@ -52,3 +52,40 @@ Im Beispiel von ALBE ist zu sehen, dass diese Lehrkraft 75 Minuten in 1.5 Aufsic
 
 ## Stundenpläne bearbeiten
 
+Im **Klassen**modus lassen sich für Klassen Stundenpläne anlegen. Die Jahrgänge der Oberstufe werden hierbei technisch auch als Klassen behandelt.
+
+Hier im Beispiel wird der Stundenplan der *09a* fertig gestellt. 
+
+![Beispielscreenshot mit dem kompletten Stundenplan](./graphics/SVWS_stundenplan_uebersicht.png "Übersicht eines ganzen Stundenplans.")
+
+Der Ausschnitt aus dem Stundenplan wurde hier so gewählt, dass zum einen die Untertabs der **Klassenauswahl**, der Auswahl des **Wochentyps** und der Modus **Einzelstunden** oder **Doppelstunden** zu sehen sind.
+
+Wird der Doppelstundenmodus angewählt, werden per Drag & Drop gleich zwei aufeinander folgende Stunden verplant.
+
+Weiterhin wird in der *Auswahlliste* links die Aufteilung in **Klassenunterrichte** und **Kursunterrichte** deutlich. Bei jedem Unterricht ist auch das **Ist/Soll** zu sehen, so dass deutlich wird, ob alle Unterrichte schon korrekt verplant sind *(grün)*, ob noch Stunden verplant werden müssen *(weiß)* oder ob zu viele Stunden verplant wurden *(rot)*.
+
+Hier im Beispiel sollen nun die fehlenden Stunden für *Deutsch* und *Englisch* verplant werden.
+
+Hierzu entfernen wir erst Physik aus der 3. Stunde am Montag, die Stunde schieben wir in den Freitag in der 7. Stunde (hier im Screenshot nicht abgebildet). Dazu muss der Unterricht aus der Auswahlliste links in *Freitag, 7. Stunde* gezogen werden. Der Unterricht am *Physik, Montag, 3. Stunde* wird links zurück in die Auswahlliste gezogen, um ihn zu entfernen.
+
+![Entfernen eines Unterrichts](./graphics/SVWS_stundenplan_unterrichtEntfernen.png "Physik wird zurück in die Auswahlliste gezogen.")
+
+Der Zeitbereich *Montag, 3. Stunde* ist nun frei. Für die zweite Stunde Physik wird ein anderer Platz gefunden werden müssen.
+
+Nun wird *Englisch* aus der Auswahlliste in den Montag, 3. Stunde gezogen.
+
+![Englisch wird in den Stundenplan gezogen](./graphics/SVWS_stundenplan_unterrichtZuordnen.png "Es wird Englisch in den Stundenplan gezogen.")
+
+Hierbei ist gut zu sehen, dass die existierenden Stunden *English* am Freitag in *rot* hervor gehoben werden. Somit ist deutlich zu sehen, wo schon Stunden verplant sind.
+
+Ebenso ist gut zu sehen, dass Englisch für *Montag, 3. Stunde* sowohl in beide Wochentypen gezogen werden kann. Dies ist im Screenshot abgebildet.
+
+So lange man die linke Maustaste beim Drag & Drop aber nicht loslässt, werden auch die anderen Wochen eingeblendet und man könnte Englisch nun auch für jeweils den halben Stundenwert in der A- oder B-Woche ablegen.
+
+Das folgende Beispiel dürfte in der Praxis unnötig komplex werden, dient hier in diesem Hilfeartikel aber als rein exemplarische Erklärung der Nutzeroberfläche:
+
+![Beispiel zur Planung mit A-B-Wochen](./graphics/SVWS_stundenplan_unterrichtZuordnen_AB-Woche.png "Verplanung der 3. Stunde am Montag und Dienst mit A- und B-Wochen.")
+
+Die 3. Stunde am Montag und Dienstag sind nun in A-B-Wochen am Montag mit Englisch in der A-Woche und Physik in der B-Woche und am Dienstag mit Deutsch in der A-Woche und Englisch in der B-Woche verplant.
+
+Links in der Auswahliste ist zu sehen, dass bei Physik noch eine halbe Stunde fehlt. Bei Mathematik fehlt eine Stunde, weiterhin sind Praktische Philosphie, Biologie und Informatik noch gar nicht verplant. Der Vollständigkeit halber findet sich noch Deutsch, dem ebenfalls noch eine halbe Stunde fehlt.
