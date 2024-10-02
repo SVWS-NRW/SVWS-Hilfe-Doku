@@ -102,6 +102,8 @@ Ganz gleich, ob Stundenpläne verändert oder neu erstellt wurden, sind nach dem
 
 Diese Zuweisung kann im Anschluss über den Tab **Unterrichte** vorgenommen werden.
 
+Hierzu wird über **Klassen** die passende Klasse ausgewählt, um die Zahl der Unterrichte in der Auswahlliste zu reduzieren.
+
 Hier ist beim Unterricht des *Fachs* und des *Zeitrasterplatzes* mit einem Klick auf ````...```` ein Raum zu wählen.
 
 Ebenso können hier existierende Räume für andere Unterrichte verändert werden.
