@@ -8,7 +8,7 @@ Hier kann dieser Nutzer auch selbst das **Passwort ändern**.
 
 Dieses wird zweimal eingebenen, dann wird die Änderung mit einem Klick auf _Passwort ändern_ ausgeführt.
 
-Über den Schalter rechts lässt sich steuern, ob **Fehlermeldungen** mit einem *Backtick* - auf Deutsch ein "rückwärts geneigtes Hochkomma" oder "einfaches Anführungszeichen" - oder einfach nur als der reine Text generiert werden. 
+Über den Schalter rechts lässt sich steuern, ob **Fehlermeldungen** mit drei voranstehenden und abschließenden *Backticks* - auf Deutsch ein "rückwärts geneigtes Hochkomma" oder "einfaches Anführungszeichen" - oder einfach nur als der reiner Text generiert werden. Dies ist relevant für das Kopieren der Fehlermeldung in die GitHub-Issues. Backticks formatieren die Fehlermeldung als Code und machen sie so für andere leichter lesbar. Diese Einstellung sollte nicht geändert werden.
 
 Darunter lassen sich die Daten für den Zugriff auf einen **SMTP-Server** zum Verschicken von E-Mails einstellen und mit welcher E-Mailadresse diese versendet werden sollen.
 
