@@ -46,26 +46,36 @@ export default defineConfig(({ mode }) => {
                 { text: 'Zeugnisvorbereitung', link: '/anleitungen_zeugnisse/' },
                 { text: '━━━ Apps ━━━', link: '/apps/' },
                 { text: 'Aktueller Benutzer', link: '/aktuellernutzer/', collapsed: true },
-                { text: 'Schule', link: '/schule/', collapsed: true, items: [
-                      { text: 'Benutzer', link: '/schule/benutzer/' },
-                      { text: 'Benutzergruppen', link: '/schule/benutzergruppen/' },
+                { text: 'Schule', link: '/schule/', collapsed: true, items:
+                  [
+                      { text: 'Schulbezogene Kataloge', items: [
+                            { text: 'Stammdaten der Schule (Todo)'},
+                            { text: 'Betriebe (Todo)'},
+                            { text: 'Einwilligungsarten (Todo)'},
+                            { text: 'Fächer', link: '/schule/kataloge/faecher/' },
+                            { text: 'Förderschwerpunkte', link: '/schule/kataloge/foerderschwerpunkte/' },
+                            { text: 'Aufsichtsbereiche (Wo?)', link: '/schule/kataloge/aufsichtsbereiche/' },
+                            { text: 'Jahrgänge', link: '/schule/kataloge/jahrgaenge/' },
+                            { text: 'Vermerkarten (Todo)'},
+                            { text: 'Pausenzeiten (Wo?)', link: '/schule/kataloge/pausenzeiten/' },
+                            { text: 'Räume (Wo?)', link: '/schule/kataloge/raeume/' },
+                            { text: 'Zeitraster (Wo?)', link: '/schule/kataloge/zeitraster/' }
+                          ]
+                      },
+                      { text: 'Schulbezogene Kataloge', items: [
+                            { text: 'Religionen', link: '/schule/kataloge/religionen/' },
+                            { text: 'Schulen (Todo)'}
+                          ]
+                      },
                       { text: 'Datenaustausch', link: '/schule/datenaustausch/', collapsed: true, items: [
-                            { text: 'Laufbahnberatung Oberstufe', link: '/schule/datenaustausch/lupo/' },
-                            { text: 'WebNotenManager', link: '/schule/datenaustausch/wenom/' }
-                         ]
+                            { text: 'ENM Notenmanager (Todo)'},
+                            { text: 'LuPO Laufbahnplanung', link: '/schule/datenaustausch/lupo/' },
+                            { text: 'WebNotenManager', link: '/schule/datenaustausch/wenom/' },
+                            { text: 'Kurs 42 (Todo)'},
+                            { text: 'Untis (Todo)'}
+                           ]
                       }
-                    ]
-                },
-                { text: 'Kataloge', link: '/kataloge/', collapsed: true, items: [
-                      { text: 'Aufsichtsbereiche', link: '/kataloge/aufsichtsbereiche/' },
-                      { text: 'Fächer', link: '/kataloge/faecher/' },
-                      { text: 'Förderschwerpunkte', link: '/kataloge/foerderschwerpunkte/' },
-                      { text: 'Jahrgänge', link: '/kataloge/jahrgaenge/' },
-                      { text: 'Pausenzeiten', link: '/kataloge/pausenzeiten/' },
-                      { text: 'Räume', link: '/kataloge/raeume/' },
-                      { text: 'Religionen', link: '/kataloge/religionen/' },
-                      { text: 'Zeitraster', link: '/kataloge/zeitraster/' }
-                    ]
+                  ]
                 },
                 { text: 'Schüler', link: '/schueler/', collapsed: true, items: [
                       { text: 'Individualdaten', link: '/schueler/individualdaten/' },
@@ -112,9 +122,14 @@ export default defineConfig(({ mode }) => {
                 },
                 { text: 'Stundenplan', link: '/stundenplan/', },
                 { text: '━━━ Weiteres ━━━', link: '/weiteres/' },
+                { text: 'Einstellungen', link: /einstellungen/, collapsed: true, items: [
+                    { text: 'Benutzer', link: '/einstellungen/benutzer/' },
+                    { text: 'Benutzergruppen', link: '/einstellungen/benutzergruppen/' }
+                  ]
+                },
                 { text: 'Administration', link: '/administration/', collapsed: true, items: [
                       { text: 'Admin Client', link: '/administration/adminclient/' }
-                    ]
+                  ]
                 },
                 { text: 'Adressbücher', link: '/adressbuecher/' },
                 { text: 'Kalender', link: '/kalender/' },
