@@ -123,8 +123,8 @@ export default defineConfig(({ mode }) => {
                 { text: 'Stundenplan', link: '/stundenplan/', },
                 { text: '━━━ Weiteres ━━━', link: '/weiteres/' },
                 { text: 'Einstellungen', link: /einstellungen/, collapsed: true, items: [
-                    { text: 'Benutzer', link: '/einstellungen/benutzer/' },
-                    { text: 'Benutzergruppen', link: '/einstellungen/benutzergruppen/' }
+                    { text: 'Benutzer (Anzupassen)', link: '/einstellungen/benutzer/' },
+                    { text: 'Benutzergruppen (Anzupassen)', link: '/einstellungen/benutzergruppen/' }
                   ]
                 },
                 { text: 'Administration', link: '/administration/', collapsed: true, items: [
