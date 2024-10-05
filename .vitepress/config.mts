@@ -49,14 +49,14 @@ export default defineConfig(({ mode }) => {
                 { text: 'Schule', link: '/schule/', collapsed: true, items:
                   [
                       { text: 'Schulbezogene Kataloge', items: [
-                            { text: 'Stammdaten der Schule (Todo)'},
-                            { text: 'Betriebe (Todo)'},
-                            { text: 'Einwilligungsarten (Todo)'},
+                            { text: 'Stammdaten der Schule (Todo)' },
+                            { text: 'Betriebe (Todo)' },
+                            { text: 'Einwilligungsarten (Todo)' },
                             { text: 'Fächer', link: '/schule/kataloge/faecher/' },
                             { text: 'Förderschwerpunkte', link: '/schule/kataloge/foerderschwerpunkte/' },
                             { text: 'Aufsichtsbereiche (Wo?)', link: '/schule/kataloge/aufsichtsbereiche/' },
                             { text: 'Jahrgänge', link: '/schule/kataloge/jahrgaenge/' },
-                            { text: 'Vermerkarten (Todo)'},
+                            { text: 'Vermerkarten (Todo)' },
                             { text: 'Pausenzeiten (Wo?)', link: '/schule/kataloge/pausenzeiten/' },
                             { text: 'Räume (Wo?)', link: '/schule/kataloge/raeume/' },
                             { text: 'Zeitraster (Wo?)', link: '/schule/kataloge/zeitraster/' }
@@ -64,18 +64,18 @@ export default defineConfig(({ mode }) => {
                       },
                       { text: 'Schulbezogene Kataloge', items: [
                             { text: 'Religionen', link: '/schule/kataloge/religionen/' },
-                            { text: 'Schulen (Todo)'}
+                            { text: 'Schulen (Todo)' }
                           ]
                       },
                       { text: 'Datenaustausch', link: '/schule/datenaustausch/', collapsed: true, items: [
-                            { text: 'ENM Notenmanager (Todo)'},
+                            { text: 'ENM Notenmanager (Todo)' },
                             { text: 'LuPO Laufbahnplanung', link: '/schule/datenaustausch/lupo/' },
                             { text: 'WebNotenManager', link: '/schule/datenaustausch/wenom/' },
-                            { text: 'Kurs 42 (Todo)'},
-                            { text: 'Untis (Todo)'}
-                           ]
+                            { text: 'Kurs 42 (Todo)' },
+                            { text: 'Untis (Todo)' }
+                          ]
                       }
-                  ]
+                  ] 
                 },
                 { text: 'Schüler', link: '/schueler/', collapsed: true, items: [
                       { text: 'Individualdaten', link: '/schueler/individualdaten/' },
