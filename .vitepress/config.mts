@@ -34,7 +34,7 @@ export default defineConfig(({ mode }) => {
                 { text: '━━━ Anleitungen ━━━', link: '/anleitungen/' },
                 { text: 'Allgemeine Anleitungen', link: '/anleitungen/', collapsed: true, items: [
                       { text: 'Anmeldung', link: '/anleitungen/anmeldung/' },
-                      { text: 'Stundenpläne', link: '/anleitungen/stundenplan/' },
+                      { text: 'Stundenpläne (MoveTo Stundenpläne?)', link: '/anleitungen/stundenplan/' },
                       { text: 'JSON-Dateien', link: '/anleitungen/json_files/' }
                     ]
                 },
@@ -54,12 +54,8 @@ export default defineConfig(({ mode }) => {
                             { text: 'Einwilligungsarten (Todo)' },
                             { text: 'Fächer', link: '/schule/kataloge/faecher/' },
                             { text: 'Förderschwerpunkte', link: '/schule/kataloge/foerderschwerpunkte/' },
-                            { text: 'Aufsichtsbereiche (Wo?)', link: '/schule/kataloge/aufsichtsbereiche/' },
                             { text: 'Jahrgänge', link: '/schule/kataloge/jahrgaenge/' },
-                            { text: 'Vermerkarten (Todo)' },
-                            { text: 'Pausenzeiten (Wo?)', link: '/schule/kataloge/pausenzeiten/' },
-                            { text: 'Räume (Wo?)', link: '/schule/kataloge/raeume/' },
-                            { text: 'Zeitraster (Wo?)', link: '/schule/kataloge/zeitraster/' }
+                            { text: 'Vermerkarten (Todo)' }
                           ]
                       },
                       { text: 'Schulbezogene Kataloge', items: [
@@ -93,8 +89,14 @@ export default defineConfig(({ mode }) => {
                       { text: 'Stundenplan', link: '/schueler/stundenplan/', collapsed: true, items: [ 
                             { text: 'Grundlagen zum Stundenplan', link: '/stundenplan/stundenplan_basisinformationen/' },
                             { text: 'Hier müsste wohl die Anleitung hin.' },
-                            { text: 'Allgemeine Vorlagen', link: '/stundenplan/allgemeine_vorlagen/' }
-                          ]
+                            { text: 'Allgemeine Vorlagen', link: '/stundenplan/allgemeine_vorlagen/', collapsed: true, items: [
+                                { text: 'Aufsichtsbereiche', link: '/stundenplan/allgemeine_vorlagen/aufsichtsbereiche/' },
+                                { text: 'Pausenzeiten', link: '/stundenplan/allgemeine_vorlagen/pausenzeiten/' },
+                                { text: 'Räume', link: '/stundenplan/allgemeine_vorlagen/raeume/' },
+                                { text: 'Zeitraster', link: '/stundenplan/allgemeine_vorlagen/zeitraster/' }
+                                ]                            
+                            }
+                        ]
                       }
                     ]
                 },
