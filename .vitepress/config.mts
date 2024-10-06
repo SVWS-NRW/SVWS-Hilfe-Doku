@@ -90,7 +90,12 @@ export default defineConfig(({ mode }) => {
                       { text: 'KAoA', link: '/schueler/kaoa/' },
                       { text: 'Laufbahn', link: '/schueler/laufbahn/' },
                       { text: 'Laufbahnplanung (SII)', link: '/schueler/laufbahnplanung/' },
-                      { text: 'Stundenplan', link: '/schueler/stundenplan/' }
+                      { text: 'Stundenplan', link: '/schueler/stundenplan/', collapsed: true, items: [ 
+                            { text: 'Grundlagen zum Stundenplan', link: '/stundenplan/stundenplan_basisinformationen/' },
+                            { text: 'Hier müsste wohl die Anleitung hin.' },
+                            { text: 'Allgemeine Vorlagen', link: '/stundenplan/allgemeine_vorlagen/' }
+                          ]
+                      }
                     ]
                 },
                 { text: 'Lehrkräfte', link: '/lehrer/', collapsed: true, items: [
