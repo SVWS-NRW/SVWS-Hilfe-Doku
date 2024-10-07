@@ -1,0 +1,1 @@
+# Informationen zum SVWS-Client

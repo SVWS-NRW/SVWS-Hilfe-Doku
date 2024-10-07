@@ -32,12 +32,19 @@ export default defineConfig(({ mode }) => {
         '/': [
           { text: '', items:
               [
+                { text: '━━━ Der SVWS-Client ━━━', link: '/client/', collapsed: true, items:
+                    [
+                        { text: 'Änderungen ', link: '/client/änderungen/' },
+                        { text: 'FAQ', link: '/client/faq/' },
+                        { text: 'JSON-Dateien', link: '/client/json_files/' },
+                        { text: 'Admin Client', link: '/administration/adminclient/' }
+                    ]
+                },
                 { text: '━━━ Anleitungen ━━━', link: '/anleitungen/' },
                 { text: 'Allgemeine Anleitungen', link: '/anleitungen/', collapsed: true, items: 
                     [
                         { text: 'Anmeldung', link: '/anleitungen/anmeldung/' },
-                        { text: 'Stundenpläne (MoveTo Stundenpläne?)', link: '/anleitungen/stundenplan/' },
-                        { text: 'JSON-Dateien', link: '/anleitungen/json_files/' }
+                        { text: 'Stundenpläne (Verschieben zu Stundenpläne?)', link: '/anleitungen/stundenplan/' }
                     ]
                 },
                 { text: 'Schulformspezifisch', link: '/anleitungen_schulform/', collapsed: true, items:
@@ -48,10 +55,10 @@ export default defineConfig(({ mode }) => {
                 },
                 { text: 'Zeugnisvorbereitung', link: '/anleitungen_zeugnisse/' },
                 { text: '━━━ Apps ━━━', link: '/apps/' },
-                { text: 'Aktueller Benutzer', link: '/aktuellernutzer/', collapsed: true },
+                { text: 'Aktueller Benutzer', link: '/aktuellernutzer/' },
                 { text: 'Schule', link: '/schule/', collapsed: true, items:
                     [
-                        { text: 'Schulbezogene Kataloge', items:
+                        { text: 'Schulbezogene Kataloge', collapsed: true, items:
                             [
                                 { text: 'Stammdaten der Schule (Todo)' },
                                 { text: 'Betriebe (Todo)' },
@@ -62,7 +69,7 @@ export default defineConfig(({ mode }) => {
                                 { text: 'Vermerkarten (Todo)' }
                             ]
                         },
-                        { text: 'Schulbezogene Kataloge', items:
+                        { text: 'Allgemeine Kataloge', collapsed: true, items:
                             [
                                 { text: 'Religionen', link: '/schule/kataloge/religionen/' },
                                 { text: 'Schulen (Todo)' }
@@ -79,7 +86,7 @@ export default defineConfig(({ mode }) => {
                         }
                     ] 
                 },
-                { text: 'Schüler', link: '/schueler/', collapsed: true, items:
+                { text: 'Schüler (Anpassen!)', link: '/schueler/', collapsed: true, items:
                     [
                         { text: 'Individualdaten', link: '/schueler/individualdaten/' },
                         { text: 'Erziehungsberechtigte', link: '/schueler/erziehungsberechtigte/' },
@@ -93,28 +100,15 @@ export default defineConfig(({ mode }) => {
                         },
                         { text: 'KAoA', link: '/schueler/kaoa/' },
                         { text: 'Laufbahn', link: '/schueler/laufbahn/' },
-                        { text: 'Laufbahnplanung (SII)', link: '/schueler/laufbahnplanung/' },
-                        { text: 'Stundenplan', link: '/schueler/stundenplan/', collapsed: true, items:
-                            [ 
-                                { text: 'Grundlagen zum Stundenplan', link: '/stundenplan/stundenplan_basisinformationen/' },
-                                { text: 'Hier müsste wohl die Anleitung hin.' },
-                                { text: 'Allgemeine Vorlagen', link: '/stundenplan/allgemeine_vorlagen/', collapsed: true, items:
-                                    [
-                                        { text: 'Aufsichtsbereiche', link: '/stundenplan/allgemeine_vorlagen/aufsichtsbereiche/' },
-                                        { text: 'Pausenzeiten', link: '/stundenplan/allgemeine_vorlagen/pausenzeiten/' },
-                                        { text: 'Räume', link: '/stundenplan/allgemeine_vorlagen/raeume/' },
-                                        { text: 'Zeitraster', link: '/stundenplan/allgemeine_vorlagen/zeitraster/' }
-                                    ]                            
-                                }
-                            ]
-                        }
+                        { text: 'Laufbahnplanung Sek II', link: '/schueler/laufbahnplanung/' },
+                        { text: 'Stundenplan', link: '/schueler/stundenplan/' }
                     ]
                 },
                 { text: 'Lehrkräfte', link: '/lehrer/', collapsed: true, items:
                     [
                         { text: 'Individualdaten', link: '/lehrer/individualdaten/' },
-                       { text: 'Unterricht', link: '/lehrer/unterricht/' },
-                       { text: 'Stundenplan', link: '/lehrer/stundenplan/' }
+                        { text: 'Unterricht', link: '/lehrer/unterricht/' },
+                        { text: 'Stundenplan', link: '/lehrer/stundenplan/' }
                     ]
                 },
                 { text: 'Klassen', link: '/klassen/' },
@@ -134,13 +128,26 @@ export default defineConfig(({ mode }) => {
                 },
                 { text: 'Statistik', link: '/statistik/', collapsed: true, items:
                     [
-                        { text: 'Verschlüsselung ', link: '/statistik/verschluesselung' },
-                        { text: 'Datenprüfung', link: '/statistik/datenpruefung' },
-                        { text: 'Dokumente', link: '/statistik/dokumente' },
-                        { text: 'Hilfe', link: '/statistik/hilfe' }
+                        { text: 'Verschlüsselung ', link: '/statistik/verschluesselung/' },
+                        { text: 'Datenprüfung', link: '/statistik/datenpruefung/' },
+                        { text: 'Dokumente', link: '/statistik/dokumente/' },
+                        { text: 'Hilfe', link: '/statistik/hilfe/' }
                     ]
                 },
-                { text: 'Stundenplan', link: '/stundenplan/', },
+                { text: 'Stundenplan', link: '/stundenplan/', collapsed: true, items: 
+                    [ 
+                        { text: 'Grundlagen zum Stundenplan', link: '/stundenplan/stundenplan_basisinformationen/' },
+                        { text: 'Hierhier: Stundenplananleitung?' },
+                        { text: 'Allgemeine Vorlagen', link: '/stundenplan/allgemeine_vorlagen/', collapsed: true, items:
+                            [
+                                { text: 'Aufsichtsbereiche', link: '/stundenplan/allgemeine_vorlagen/aufsichtsbereiche/' },
+                                { text: 'Pausenzeiten', link: '/stundenplan/allgemeine_vorlagen/pausenzeiten/' },
+                                { text: 'Räume', link: '/stundenplan/allgemeine_vorlagen/raeume/' },
+                                { text: 'Zeitraster', link: '/stundenplan/allgemeine_vorlagen/zeitraster/' }
+                            ]                            
+                        }
+                    ]
+                },
                 { text: '━━━ Weiteres ━━━', link: '/weiteres/' },
                 { text: 'Einstellungen', link: '/einstellungen/', collapsed: true, items:
                     [
@@ -148,20 +155,10 @@ export default defineConfig(({ mode }) => {
                        { text: 'Benutzergruppen (Anzupassen)', link: '/einstellungen/benutzergruppen/' }
                     ]
                 },
-                { text: 'Administration', link: '/administration/', collapsed: true, items:
-                    [
-                        { text: 'Admin Client', link: '/administration/adminclient/' }
-                    ]
-                },
                 { text: 'Adressbücher', link: '/adressbuecher/' },
                 { text: 'Kalender', link: '/kalender/' },
-                { text: 'Informationen', link: '/informationen/', collapsed: true, items:
-                    [
-                        { text: 'Änderungen ', link: '/informationen/änderungen/' },
-                        { text: 'FAQ', link: '/informationen/faq' }
-                    ]
-                },
-                { text: 'Writing Guidelines (Temp)', link: '/writingguide/'}
+                { text: '-----------'},
+                { text: 'Writing Guidelines (Temp)', link: '/writingguide/' }
               ]
           }
         ]
