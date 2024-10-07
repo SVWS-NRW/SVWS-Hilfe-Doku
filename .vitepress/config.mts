@@ -148,13 +148,13 @@ export default defineConfig(({ mode }) => {
                         }
                     ]
                 },
-                { text: '━━━ Weiteres ━━━', link: '/weiteres/' },
                 { text: 'Einstellungen', link: '/einstellungen/', collapsed: true, items:
                     [
                        { text: 'Benutzer (Anzupassen)', link: '/einstellungen/benutzer/' },
                        { text: 'Benutzergruppen (Anzupassen)', link: '/einstellungen/benutzergruppen/' }
                     ]
                 },
+                { text: '━━━ Weiteres ━━━', link: '/weiteres/' },
                 { text: 'Adressbücher', link: '/adressbuecher/' },
                 { text: 'Kalender', link: '/kalender/' },
                 { text: '-----------'},
