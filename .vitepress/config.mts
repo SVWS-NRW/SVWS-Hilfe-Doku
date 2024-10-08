@@ -32,12 +32,12 @@ export default defineConfig(({ mode }) => {
         '/': [
           { text: '', items:
               [
-                { text: '━━━ Der SVWS-Client ━━━', link: '/client/', collapsed: true, items:
+                { text: '━━━ Der Client ━━━', link: '/client/', collapsed: false, items:
                     [
                         { text: 'Änderungen ', link: '/client/änderungen/' },
                         { text: 'FAQ', link: '/client/faq/' },
                         { text: 'JSON-Dateien', link: '/client/json_files/' },
-                        { text: 'Admin Client', link: '/administration/adminclient/' }
+                        { text: 'Der Admin Client', link: '/administration/adminclient/' }
                     ]
                 },
                 { text: '━━━ Anleitungen ━━━', link: '/anleitungen/' },
