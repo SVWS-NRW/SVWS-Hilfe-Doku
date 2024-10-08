@@ -32,6 +32,7 @@ export default defineConfig(({ mode }) => {
         '/': [
           { text: '', items:
               [
+                { text: 'Diese Webseite', link: '/clientwebsite/' },
                 { text: '━━━ Der Client ━━━', link: '/client/', collapsed: false, items:
                     [
                         { text: 'Änderungen ', link: '/client/änderungen/' },
