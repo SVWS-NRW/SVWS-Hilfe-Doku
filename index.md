@@ -14,6 +14,12 @@ const datum = (t) => {
 
 <pre>Erstellungsdatum {{ datum(data.buildDate) }}</pre>
 
+## Die technische Dokumentation
+
+Sie finden die technische Dokumenation mit Hinweisen zur Installation und Erkläuterungen zur Technik unter
+
+https://doku.svws-nrw.de
+
 ## Informationen zum SVWS-Client 
 
 Der **SVWS-Client** ist eine Web-Applikation zur Unterstützung der Verwaltungsprozesse an den Schulen Nordrhein-Westfalens.  
