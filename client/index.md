@@ -1,5 +1,7 @@
 # Informationen zum SVWS-Client
 
+Die offiziell unterstützte minimale Auflösung für die Verwendung des SVWS-Client ist FullHD (1920 * 1080 Pixel).
+
 ## Wesentliche Bedienbereiche des SVWS-Clients
 
 Die Programmpunkte im SVWS-Client heißen **Apps**.
