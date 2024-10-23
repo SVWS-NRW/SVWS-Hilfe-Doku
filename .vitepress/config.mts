@@ -35,7 +35,8 @@ export default defineConfig(({ mode }) => {
                 { text: 'Diese Webseite', link: '/clientwebsite/' },
                 { text: '━━━ Der Client ━━━', link: '/client/', collapsed: false, items:
                     [
-                        { text: 'Änderungen ', link: '/client/änderungen/' },
+                        { text: 'Tastaturnavigation', link: '/client/tastaturnavigation' },
+                        { text: 'Änderungen', link: '/client/änderungen/' },
                         { text: 'FAQ', link: '/client/faq/' },
                         { text: 'JSON-Dateien', link: '/client/json_files/' },
                         { text: 'Der Admin Client', link: '/administration/adminclient/' }
