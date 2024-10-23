@@ -42,7 +42,7 @@ export default defineConfig(({ mode }) => {
                     ]
                 },
                 { text: '━━━ Anleitungen ━━━', link: '/anleitungen/' },
-                { text: 'Allgemeine Anleitungen', link: '/anleitungen/', collapsed: true, items: 
+                { text: 'Allgemeine Anleitungen', link: '/anleitungen_allgemein/', collapsed: true, items: 
                     [
                         { text: 'Anmeldung', link: '/anleitungen/anmeldung/' },
                         { text: 'Stundenpläne (Verschieben zu Stundenpläne?)', link: '/anleitungen/stundenplan/' }
