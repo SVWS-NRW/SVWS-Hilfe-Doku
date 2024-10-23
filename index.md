@@ -36,6 +36,12 @@ Dabei sollen nach und nach alle Aufgaben der bisherigen Schulverwaltungsprogramm
 
 Das Gesamtprojekt _SVWS-Server_ ist ein Open-Source-Projekt des Landes Nordrhein-Westfalen.
 
+# Datenschutzhinweis aus dem Client
+
+Nehmen Sie den im SVWS-Client hinterlegten Datenschutzhinweis zur Kenntnis. 
+
+Sie erreichen diesen über ````Client Info```` im **App-Menü** im Reiter **Datenschutz**.
+
 # Impressum
 
 Ministerium für Schule und Bildung des Landes Nordrhein-Westfalen
