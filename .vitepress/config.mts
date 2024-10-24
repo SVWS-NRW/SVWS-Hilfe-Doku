@@ -45,8 +45,8 @@ export default defineConfig(({ mode }) => {
                 { text: '━━━ Anleitungen ━━━', link: '/anleitungen/' },
                 { text: 'Allgemeine Anleitungen', link: '/anleitungen_allgemein/', collapsed: true, items: 
                     [
-                        { text: 'Anmeldung', link: '/anleitungen/anmeldung/' },
-                        { text: 'Stundenpläne (Verschieben zu Stundenpläne?)', link: '/anleitungen/stundenplan/' }
+                        { text: 'Anmeldung', link: '/anleitungen_allgemein/anmeldung/' },
+                        { text: 'Stundenpläne (Verschieben zu Stundenpläne?)', link: '/anleitungen_allgemein/stundenplan/' }
                     ]
                 },
                 { text: 'Schulformspezifisch', link: '/anleitungen_schulform/', collapsed: true, items:
