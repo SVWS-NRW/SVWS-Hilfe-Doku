@@ -16,6 +16,10 @@ Drücken Sie ````Strg + Alt + Page Up```` beziehungsweise ````Page Down````, um 
 
 Hier im Screenshot wurde mit ````Strg + Alt + Page Up```` der **App**-Bereich erreicht, dann wurde mit ````Tab```` der Fokus aktiviert. Die blaue Hervorhebung um *Schüler* zeigt an, dass dieser gerade angezeigt wird. Der schwarze Rahmen um *Klassen* ist der Fokus. Mit einem Druck auf ````Enter```` kann nun zu *Klassen* gewechselt werden.
 
+![Blauer Fokusrahmen in den Tabs](./graphics/svws_tastaturnavigation_fokus.png "Hier wurde mit Strg + Alt + Page Up in den Tab-Bereich gewechselt. Nach einem Druck auf Tab schalten sich die Tabs durch. Der blaue Rahmen zeigt den Fokus.")
+
+Im Beispiel oben wurde auf den **Tab**-Bereich gewechselt. Aktuell sind die *Individualdaten* angezeigt. Schaltet man die Tabs mit mit ````Tab```` durch, zeigt der blaue Rahmen den jeweiligen Fokus an. Mit ````Enter```` kann dieser Tab nun aktiviert werden.
+
 Die Tasten ````Page Up```` und ````Page Down```` heißen auf deutschen Tastaturen manchmal auch ````Bild auf```` und ````Bild ab```` oder ````Bild```` mit einem kleinen Pfeil hoch oder runter. 
 
 ## Navigation in Auswahllisten
