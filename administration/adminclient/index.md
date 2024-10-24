@@ -3,7 +3,11 @@
 ## Login und Übersicht
 Rufen Sie den _[Server]/admin_ auf, um den **Admin Client** zu starten.
 
+![Browseradresse https://[server]/admin](./graphics/SVWS_adminclient_localhost.png "Rufen Sie den Server mit /admin auf.")
+
 Bei einer lokalen Installation wäre dies _localhost/admin_. Sie können an dieser Stelle einen IP-Adresse oder einen Hostnamen verwenden.
+
+Eventuell ist *https://* voran zu stellen, um den Admin-Client aufzurufen: *https://[SERVER]/admin*.
 
 ![Login Screen des Admin clients: root und password werden benötigt.](./graphics/svwsclient_adminclient_login.png "Login Screen des Admin Clients.")
 
